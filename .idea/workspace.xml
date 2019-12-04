@@ -2,16 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d895014e-0bd4-45ed-887b-7cedecce1a97" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/java.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/edu360/mr/flow/FlowBean.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/edu360/mr/flow/FlowCountMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/edu360/mr/flow/FlowCountReducer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/edu360/mr/flow/JobSummiter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/edu360/mr/wc/JobSummiterHadoop.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/edu360/mr/wc/JobSummiterWinToYarn.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/edu360/mr/page/count/sort/PageCount.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/edu360/mr/page/count/sort/PageCountStep1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/edu360/mr/page/count/sort/PageCountStep2.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/edu360/mr/wc/JobSummiter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/edu360/mr/wc/JobSummiterWinLocal.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/edu360/mr/wc/JobSummiterWinLocal.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/edu360/mr/wc/JobSummiterWinLocal.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -67,19 +62,20 @@
     <property name="settings.editor.selected.configurable" value="MavenSettings" />
   </component>
   <component name="RecentsManager">
-    <key name="CreateClassDialog.RecentsKey">
-      <recent name="edu360.mr.flow" />
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\UoM\mapreduce24\src\main\resources" />
+      <recent name="D:\UoM\mapreduce24\src\main\java" />
+      <recent name="D:\UoM\mapreduce24\target" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="D:\UoM\mapreduce24\target" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="edu360.mr.page.count.sort" />
       <recent name="edu360.mr.wc" />
     </key>
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="D:\UoM\mapreduce24\src\main\resources" />
-      <recent name="D:\UoM\mapreduce24\src\main\java" />
-      <recent name="D:\UoM\mapreduce24\target" />
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="edu360.mr.flow" />
     </key>
   </component>
   <component name="RunDashboard">

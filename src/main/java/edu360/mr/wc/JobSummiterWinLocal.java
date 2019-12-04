@@ -24,7 +24,7 @@ import java.net.URISyntaxException;
 public class JobSummiterWinLocal {
     public static void main(String[] args) throws IOException, ClassNotFoundException, InterruptedException, URISyntaxException {
         // 在代码中设置JVM系统参数,用于给job访问HDFS的用户身份
-        System.setProperty("hadoop.home.dir","P:/Reporting & Insights/Temp/g/hadoop-2.8.1");
+//        System.setProperty("hadoop.home.dir","P:/Reporting & Insights/Temp/g/hadoop-2.8.1");
 //
         Configuration conf = new Configuration();
         // 1. 设置job运行时没要访问的默认文件系统
