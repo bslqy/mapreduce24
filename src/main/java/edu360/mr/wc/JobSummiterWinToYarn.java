@@ -19,7 +19,7 @@ import java.net.URISyntaxException;
  *   1.封装本次job运行时所需要的必要参数
  *   2.跟yarn进行交互,将mapreduce程序成功的启动，运行
  */
-public class JobSummiter {
+public class JobSummiterWinToYarn {
     public static void main(String[] args) throws IOException, ClassNotFoundException, InterruptedException, URISyntaxException {
         // 在代码中设置JVM系统参数,用于给job访问HDFS的用户身份
         System.setProperty("HADOOP_USER_NAME","root");
@@ -36,7 +36,7 @@ public class JobSummiter {
         Job job = Job.getInstance(conf);
 
         // 1.封装参数:jar包所在位置
-        job.setJarByClass(JobSummiter.class);
+        job.setJarByClass(JobSummiterWinToYarn.class);
 
         // 2.封装参数:本次job所要调用的Mapper参数
         job.setMapperClass(WordcountMapper.class);
