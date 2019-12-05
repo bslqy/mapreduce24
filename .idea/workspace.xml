@@ -2,11 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d895014e-0bd4-45ed-887b-7cedecce1a97" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/java/edu360/mr/flowProvince/FlowBean.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/edu360/mr/flowProvince/FlowCountMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/edu360/mr/flowProvince/FlowCountReducer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/edu360/mr/flowProvince/JobSubmitter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/edu360/mr/flowProvince/ProvincePartitioner.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/edu360/mr/flow/JobSummiter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/edu360/mr/flow/JobSubmitter.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/edu360/mr/page/count/sort/PageCount.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/edu360/mr/page/count/sort/PageCount.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/edu360/mr/page/count/sort/PageCountStep1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/edu360/mr/page/count/sort/PageCountStep1.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/edu360/mr/page/count/sort/PageCountStep2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/edu360/mr/page/count/sort/PageCountStep2.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -69,6 +70,7 @@
       <recent name="D:\UoM\mapreduce24\target" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="edu360.mr.flowProvince" />
       <recent name="edu360.mr.page.topN" />
       <recent name="edu360.mr.page.count.sort" />
       <recent name="edu360.mr.wc" />
@@ -201,7 +203,14 @@
       <option name="project" value="LOCAL" />
       <updated>1575514938292</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="04 - 11. MapReduce with 2 MapReduce Tasks">
+      <created>1575517628368</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1575517628368</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -220,6 +229,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="2019/12/02" />
     <MESSAGE value="04 - 10. MapReduce TopN" />
-    <option name="LAST_COMMIT_MESSAGE" value="04 - 10. MapReduce TopN" />
+    <MESSAGE value="04 - 11. MapReduce with 2 MapReduce Tasks" />
+    <option name="LAST_COMMIT_MESSAGE" value="04 - 11. MapReduce with 2 MapReduce Tasks" />
   </component>
 </project>
