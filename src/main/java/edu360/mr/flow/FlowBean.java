@@ -10,6 +10,7 @@ import java.io.IOException;
  * 自定义类型如何输出Hadoop的序列化接口
  * 1. 一定要有保留空参构造函数
  * 2. write方法中输出字段二进制数据顺序要与readFields方法读取数据顺序要一样
+ * 3. Reducer 重载toString() 方法后Reducer输出就是新的toString()方法
  */
 
 public class FlowBean implements Writable {

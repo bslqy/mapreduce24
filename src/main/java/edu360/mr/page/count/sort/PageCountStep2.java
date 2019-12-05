@@ -17,14 +17,8 @@ import java.io.IOException;
 
 public class PageCountStep2 {
 
-    public static class PageCountSortStep1Mapper extends Mapper<LongWritable, Text,PageCount, NullWritable> {
-        @Override
-        protected void map(LongWritable key, Text value, Context context) throws IOException, InterruptedException {
+    public static class PageCountSortStep1Mapper extends Mapper<Text, Text,PageCount, NullWritable> {
 
-            // 输入 网址,数量
-            
-            context.write(new Text(split[1]), new NullWritable());
-        }
     }
 
     public static class PageCountSortStep1Reducer extends Reducer<Text, IntWritable,Text, IntWritable> {

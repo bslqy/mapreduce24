@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<Configuration>
+<property>
+    <name>top.n</name>
+    <value>2</value>
+</property>
+</Configuration>
