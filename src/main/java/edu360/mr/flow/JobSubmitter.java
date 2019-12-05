@@ -10,13 +10,13 @@ import org.apache.hadoop.mapreduce.lib.output.FileOutputFormat;
 import java.io.IOException;
 
 
-public class JobSummiter {
+public class JobSubmitter {
     public static void main(String[] args) throws IOException, ClassNotFoundException, InterruptedException {
         Configuration conf = new Configuration();
 
         Job job = Job.getInstance(conf);
 
-        job.setJarByClass(JobSummiter.class);
+        job.setJarByClass(JobSubmitter.class);
 
         job.setMapperClass(FlowCountMapper.class);
         job.setReducerClass(FlowCountReducer.class);

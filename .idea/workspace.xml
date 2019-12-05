@@ -2,14 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d895014e-0bd4-45ed-887b-7cedecce1a97" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/edu360/mr/page/topN/PageCount.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/edu360/mr/page/topN/PageTopNMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/edu360/mr/page/topN/PageTopNReducer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/edu360/mr/page/topN/jobSubmitter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/topn.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/xx-oo.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/edu360/mr/flow/FlowBean.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/edu360/mr/flow/FlowBean.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/edu360/mr/flow/JobSummiter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/edu360/mr/flow/JobSubmitter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/edu360/mr/page/count/sort/PageCount.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/edu360/mr/page/count/sort/PageCount.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/edu360/mr/page/count/sort/PageCountStep1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/edu360/mr/page/count/sort/PageCountStep1.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/edu360/mr/page/count/sort/PageCountStep2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/edu360/mr/page/count/sort/PageCountStep2.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -96,9 +92,9 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.jobSubmitter">
-    <configuration name="JobSummiter" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="edu360.mr.flow.JobSummiter" />
+  <component name="RunManager" selected="Application.PageCountStep2">
+    <configuration name="JobSubmitter" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="edu360.mr.flow.JobSubmitter" />
       <module name="java" />
       <extension name="coverage">
         <pattern>
@@ -123,12 +119,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="JobSummiterWinToYarn" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="edu360.mr.wc.JobSummiterWinToYarn" />
+    <configuration name="PageCountStep1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="edu360.mr.page.count.sort.PageCountStep1" />
       <module name="java" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="edu360.mr.wc.*" />
+          <option name="PATTERN" value="edu360.mr.page.count.sort.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -136,9 +132,15 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="helloworld" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="helloworld" />
-      <module name="mapreduce24" />
+    <configuration name="PageCountStep2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="edu360.mr.page.count.sort.PageCountStep2" />
+      <module name="java" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="edu360.mr.page.count.sort.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -158,19 +160,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.helloworld" />
       <item itemvalue="Application.jobSubmitter" />
-      <item itemvalue="Application.JobSummiter" />
+      <item itemvalue="Application.JobSubmitter" />
       <item itemvalue="Application.JobSummiterWinLocal" />
-      <item itemvalue="Application.JobSummiterWinToYarn" />
+      <item itemvalue="Application.PageCountStep1" />
+      <item itemvalue="Application.PageCountStep2" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.PageCountStep2" />
+        <item itemvalue="Application.PageCountStep1" />
         <item itemvalue="Application.jobSubmitter" />
-        <item itemvalue="Application.JobSummiter" />
+        <item itemvalue="Application.JobSubmitter" />
         <item itemvalue="Application.JobSummiterWinLocal" />
-        <item itemvalue="Application.JobSummiterWinToYarn" />
-        <item itemvalue="Application.helloworld" />
       </list>
     </recent_temporary>
   </component>
@@ -192,7 +194,14 @@
       <option name="project" value="LOCAL" />
       <updated>1575295227421</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="04 - 10. MapReduce TopN">
+      <created>1575514938292</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1575514938292</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -210,6 +219,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="2019/12/02" />
-    <option name="LAST_COMMIT_MESSAGE" value="2019/12/02" />
+    <MESSAGE value="04 - 10. MapReduce TopN" />
+    <option name="LAST_COMMIT_MESSAGE" value="04 - 10. MapReduce TopN" />
   </component>
 </project>

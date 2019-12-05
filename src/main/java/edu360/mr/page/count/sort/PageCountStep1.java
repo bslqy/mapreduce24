@@ -1,9 +1,6 @@
 package edu360.mr.page.count.sort;
 
-import edu360.mr.flow.FlowBean;
-import edu360.mr.flow.FlowCountMapper;
-import edu360.mr.flow.FlowCountReducer;
-import edu360.mr.flow.JobSummiter;
+import edu360.mr.flow.JobSubmitter;
 import org.apache.hadoop.conf.Configuration;
 import org.apache.hadoop.fs.Path;
 import org.apache.hadoop.io.IntWritable;
@@ -45,7 +42,7 @@ public class PageCountStep1 {
 
         Job job = Job.getInstance(conf);
 
-        job.setJarByClass(JobSummiter.class);
+        job.setJarByClass(PageCountStep1.class);
 
         job.setMapperClass(PageCountSortStep1Mapper.class);
         job.setReducerClass(PageCountSortStep1Reducer.class);
@@ -56,10 +53,10 @@ public class PageCountStep1 {
         job.setOutputKeyClass(Text.class);
         job.setOutputValueClass(IntWritable.class);
 
-        job.setNumReduceTasks(1);
+        job.setNumReduceTasks(3);
 
-        FileInputFormat.setInputPaths(job, new Path("C:/Users/LiaoG/HadoopTest/FlowCountInput"));
-        FileOutputFormat.setOutputPath(job, new Path("C:/Users/LiaoG/HadoopTest/FlowCountOutput"));
+        FileInputFormat.setInputPaths(job, new Path("C:/Users/LiaoG/HadoopTest/PageCountSortInput"));
+        FileOutputFormat.setOutputPath(job, new Path("C:/Users/LiaoG/HadoopTest/PageCountSortOutput/Step1"));
 
         job.waitForCompletion(true);
     }
