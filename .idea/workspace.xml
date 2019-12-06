@@ -2,11 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d895014e-0bd4-45ed-887b-7cedecce1a97" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/edu360/mr/flowProvince/FlowBean.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/edu360/mr/flowProvince/FlowCountMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/edu360/mr/flowProvince/FlowCountReducer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/edu360/mr/flowProvince/JobSubmitter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/edu360/mr/flowProvince/ProvincePartitioner.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/edu360/mr/index/IndexStep1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/edu360/mr/index/IndexStep2.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -94,13 +91,13 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.PageCountStep2">
-    <configuration name="JobSubmitter" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="edu360.mr.flow.JobSubmitter" />
+  <component name="RunManager" selected="Application.IndexStep2">
+    <configuration name="IndexStep1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="edu360.mr.index.IndexStep1" />
       <module name="java" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="edu360.mr.flow.*" />
+          <option name="PATTERN" value="edu360.mr.index.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -108,12 +105,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="JobSummiterWinLocal" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="edu360.mr.wc.JobSummiterWinLocal" />
+    <configuration name="IndexStep2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="edu360.mr.index.IndexStep2" />
       <module name="java" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="edu360.mr.wc.*" />
+          <option name="PATTERN" value="edu360.mr.index.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -163,18 +160,18 @@
     </configuration>
     <list>
       <item itemvalue="Application.jobSubmitter" />
-      <item itemvalue="Application.JobSubmitter" />
-      <item itemvalue="Application.JobSummiterWinLocal" />
       <item itemvalue="Application.PageCountStep1" />
       <item itemvalue="Application.PageCountStep2" />
+      <item itemvalue="Application.IndexStep1" />
+      <item itemvalue="Application.IndexStep2" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.PageCountStep2" />
+        <item itemvalue="Application.IndexStep2" />
+        <item itemvalue="Application.IndexStep1" />
         <item itemvalue="Application.PageCountStep1" />
+        <item itemvalue="Application.PageCountStep2" />
         <item itemvalue="Application.jobSubmitter" />
-        <item itemvalue="Application.JobSubmitter" />
-        <item itemvalue="Application.JobSummiterWinLocal" />
       </list>
     </recent_temporary>
   </component>
