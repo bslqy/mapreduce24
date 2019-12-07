@@ -2,8 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d895014e-0bd4-45ed-887b-7cedecce1a97" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/edu360/mr/index/IndexStep1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/edu360/mr/index/IndexStep2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/edu360/mr/orderTopN/OrderBean.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/edu360/mr/orderTopN/OrderTopn.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/orderTopN.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -53,17 +55,21 @@
   </component>
   <component name="PropertiesComponent">
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
-    <property name="last_opened_file_path" value="C:/Program Files/Java" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/resources" />
     <property name="project.structure.last.edited" value="SDKs" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="MavenSettings" />
   </component>
   <component name="RecentsManager">
-    <key name="CreateClassDialog.RecentsKey">
-      <recent name="edu360.mr.flow" />
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="P:\Reporting &amp; Insights\Temp\java\src\main\resources" />
+      <recent name="D:\UoM\mapreduce24\src\main\resources" />
+      <recent name="D:\UoM\mapreduce24\src\main\java" />
+      <recent name="D:\UoM\mapreduce24\target" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\UoM\mapreduce24\src\main\resources" />
       <recent name="D:\UoM\mapreduce24\target" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
@@ -72,11 +78,8 @@
       <recent name="edu360.mr.page.count.sort" />
       <recent name="edu360.mr.wc" />
     </key>
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="P:\Reporting &amp; Insights\Temp\java\src\main\resources" />
-      <recent name="D:\UoM\mapreduce24\src\main\resources" />
-      <recent name="D:\UoM\mapreduce24\src\main\java" />
-      <recent name="D:\UoM\mapreduce24\target" />
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="edu360.mr.flow" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -91,7 +94,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.IndexStep2">
+  <component name="RunManager" selected="Application.OrderTopn">
     <configuration name="IndexStep1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="edu360.mr.index.IndexStep1" />
       <module name="java" />
@@ -111,6 +114,19 @@
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="edu360.mr.index.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="OrderTopn" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="edu360.mr.orderTopN.OrderTopn" />
+      <module name="mapreduce24" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="edu360.mr.orderTopN.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -144,34 +160,20 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="jobSubmitter" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="edu360.mr.page.topN.jobSubmitter" />
-      <module name="java" />
-      <option name="PROGRAM_PARAMETERS" value="4" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="edu360.mr.page.topN.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <list>
-      <item itemvalue="Application.jobSubmitter" />
       <item itemvalue="Application.PageCountStep1" />
       <item itemvalue="Application.PageCountStep2" />
       <item itemvalue="Application.IndexStep1" />
       <item itemvalue="Application.IndexStep2" />
+      <item itemvalue="Application.OrderTopn" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.OrderTopn" />
         <item itemvalue="Application.IndexStep2" />
         <item itemvalue="Application.IndexStep1" />
         <item itemvalue="Application.PageCountStep1" />
         <item itemvalue="Application.PageCountStep2" />
-        <item itemvalue="Application.jobSubmitter" />
       </list>
     </recent_temporary>
   </component>
