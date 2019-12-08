@@ -232,6 +232,7 @@
     <MESSAGE value="2019/12/02" />
     <MESSAGE value="04 - 10. MapReduce TopN" />
     <MESSAGE value="04 - 11. MapReduce with 2 MapReduce Tasks" />
-    <option name="LAST_COMMIT_MESSAGE" value="04 - 11. MapReduce with 2 MapReduce Tasks" />
+    <MESSAGE value="Hadoop Day05 - 04. mr编程案例--高效求分组topn的代码实现. 关键点为自定义GroupingComparator以及自定义Partitioner" />
+    <option name="LAST_COMMIT_MESSAGE" value="Hadoop Day05 - 04. mr编程案例--高效求分组topn的代码实现. 关键点为自定义GroupingComparator以及自定义Partitioner" />
   </component>
 </project>

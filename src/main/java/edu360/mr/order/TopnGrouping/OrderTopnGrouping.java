@@ -39,7 +39,7 @@ public class OrderTopnGrouping {
             for(NullWritable v:values){
                 context.write(key,v);
                 i++;
-                if(i==3) return;
+                if(i==topN) return;
             }
         }
     }
