@@ -2,13 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d895014e-0bd4-45ed-887b-7cedecce1a97" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/edu360/mr/order/TopnGrouping/OrderBean.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/edu360/mr/order/TopnGrouping/OrderIdGroupingComparator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/edu360/mr/order/TopnGrouping/OrderIdPetitioner.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/edu360/mr/order/TopnGrouping/OrderTopnGrouping.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/edu360/mr/CommonFriends/CommonFriendsOne.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/edu360/mr/join/JoinBean.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/edu360/mr/join/ReduceJoin.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/edu360/mr/orderTopN/OrderBean.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/edu360/mr/order/TopN/OrderBean.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/edu360/mr/orderTopN/OrderTopn.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/edu360/mr/order/TopN/OrderTopn.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/edu360/mr/order/TopnGrouping/OrderIdPetitioner.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/edu360/mr/order/TopnGrouping/OrderIdPartitioner.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/edu360/mr/order/TopnGrouping/OrderTopnGrouping.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/edu360/mr/order/TopnGrouping/OrderTopnGrouping.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -97,13 +96,13 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.OrderTopnGrouping">
-    <configuration name="IndexStep1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="edu360.mr.index.IndexStep1" />
-      <module name="java" />
+  <component name="RunManager" selected="Application.ReduceJoin$ReduceJoinReducer">
+    <configuration name="CommonFriendsOne" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="edu360.mr.CommonFriends.CommonFriendsOne" />
+      <module name="mapreduce24" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="edu360.mr.index.*" />
+          <option name="PATTERN" value="edu360.mr.CommonFriends.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -150,12 +149,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="PageCountStep1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="edu360.mr.page.count.sort.PageCountStep1" />
-      <module name="java" />
+    <configuration name="ReduceJoin$ReduceJoinReducer" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="edu360.mr.join.ReduceJoin$ReduceJoinReducer" />
+      <module name="mapreduce24" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="edu360.mr.page.count.sort.*" />
+          <option name="PATTERN" value="edu360.mr.join.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -164,19 +163,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.PageCountStep1" />
-      <item itemvalue="Application.IndexStep1" />
       <item itemvalue="Application.IndexStep2" />
       <item itemvalue="Application.OrderTopn" />
       <item itemvalue="Application.OrderTopnGrouping" />
+      <item itemvalue="Application.CommonFriendsOne" />
+      <item itemvalue="Application.ReduceJoin$ReduceJoinReducer" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.ReduceJoin$ReduceJoinReducer" />
+        <item itemvalue="Application.CommonFriendsOne" />
         <item itemvalue="Application.OrderTopnGrouping" />
         <item itemvalue="Application.OrderTopn" />
         <item itemvalue="Application.IndexStep2" />
-        <item itemvalue="Application.IndexStep1" />
-        <item itemvalue="Application.PageCountStep1" />
       </list>
     </recent_temporary>
   </component>
@@ -212,7 +211,21 @@
       <option name="project" value="LOCAL" />
       <updated>1575517628368</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Hadoop Day05 - 04. mr编程案例--高效求分组topn的代码实现. 关键点为自定义GroupingComparator以及自定义Partitioner">
+      <created>1575766586728</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1575766586729</updated>
+    </task>
+    <task id="LOCAL-00005" summary="Hadoop Day05 - 04. mr编程案例--高效求分组topn的代码实现. 关键点为自定义GroupingComparator以及自定义Partitioner">
+      <created>1575766628695</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1575766628695</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -234,5 +247,21 @@
     <MESSAGE value="04 - 11. MapReduce with 2 MapReduce Tasks" />
     <MESSAGE value="Hadoop Day05 - 04. mr编程案例--高效求分组topn的代码实现. 关键点为自定义GroupingComparator以及自定义Partitioner" />
     <option name="LAST_COMMIT_MESSAGE" value="Hadoop Day05 - 04. mr编程案例--高效求分组topn的代码实现. 关键点为自定义GroupingComparator以及自定义Partitioner" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/edu360/mr/join/ReduceJoin.java</url>
+          <line>93</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+    <watches-manager>
+      <configuration name="Application">
+        <watch expression="userBean" />
+      </configuration>
+    </watches-manager>
   </component>
 </project>

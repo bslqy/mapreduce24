@@ -55,7 +55,7 @@ public class OrderTopnGrouping {
         job.setJarByClass(OrderTopnGrouping.class);
 
         //
-        job.setPartitionerClass(OrderIdPetitioner.class);
+        job.setPartitionerClass(OrderIdPartitioner.class);
         job.setGroupingComparatorClass(OrderIdGroupingComparator.class);
 
 
