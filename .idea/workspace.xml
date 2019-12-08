@@ -2,11 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d895014e-0bd4-45ed-887b-7cedecce1a97" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/edu360/mr/orderTopN/OrderBean.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/edu360/mr/orderTopN/OrderTopn.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/orderTopN.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/edu360/mr/order/TopnGrouping/OrderBean.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/edu360/mr/order/TopnGrouping/OrderIdGroupingComparator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/edu360/mr/order/TopnGrouping/OrderIdPetitioner.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/edu360/mr/order/TopnGrouping/OrderTopnGrouping.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/edu360/mr/orderTopN/OrderBean.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/edu360/mr/order/TopN/OrderBean.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/edu360/mr/orderTopN/OrderTopn.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/edu360/mr/order/TopN/OrderTopn.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -62,24 +64,25 @@
     <property name="settings.editor.selected.configurable" value="MavenSettings" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="P:\Reporting &amp; Insights\Temp\java\src\main\resources" />
-      <recent name="D:\UoM\mapreduce24\src\main\resources" />
-      <recent name="D:\UoM\mapreduce24\src\main\java" />
-      <recent name="D:\UoM\mapreduce24\target" />
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="edu360.mr.flow" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="D:\UoM\mapreduce24\src\main\resources" />
       <recent name="D:\UoM\mapreduce24\target" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="edu360.mr.order.TopnGrouping" />
       <recent name="edu360.mr.flowProvince" />
       <recent name="edu360.mr.page.topN" />
       <recent name="edu360.mr.page.count.sort" />
       <recent name="edu360.mr.wc" />
     </key>
-    <key name="CreateClassDialog.RecentsKey">
-      <recent name="edu360.mr.flow" />
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="P:\Reporting &amp; Insights\Temp\java\src\main\resources" />
+      <recent name="D:\UoM\mapreduce24\src\main\resources" />
+      <recent name="D:\UoM\mapreduce24\src\main\java" />
+      <recent name="D:\UoM\mapreduce24\target" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -94,7 +97,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.OrderTopn">
+  <component name="RunManager" selected="Application.OrderTopnGrouping">
     <configuration name="IndexStep1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="edu360.mr.index.IndexStep1" />
       <module name="java" />
@@ -134,6 +137,19 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="OrderTopnGrouping" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="edu360.mr.order.TopnGrouping.OrderTopnGrouping" />
+      <module name="mapreduce24" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="edu360.mr.order.TopnGrouping.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="PageCountStep1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="edu360.mr.page.count.sort.PageCountStep1" />
       <module name="java" />
@@ -147,33 +163,20 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="PageCountStep2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="edu360.mr.page.count.sort.PageCountStep2" />
-      <module name="java" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="edu360.mr.page.count.sort.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <list>
       <item itemvalue="Application.PageCountStep1" />
-      <item itemvalue="Application.PageCountStep2" />
       <item itemvalue="Application.IndexStep1" />
       <item itemvalue="Application.IndexStep2" />
       <item itemvalue="Application.OrderTopn" />
+      <item itemvalue="Application.OrderTopnGrouping" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.OrderTopnGrouping" />
         <item itemvalue="Application.OrderTopn" />
         <item itemvalue="Application.IndexStep2" />
         <item itemvalue="Application.IndexStep1" />
         <item itemvalue="Application.PageCountStep1" />
-        <item itemvalue="Application.PageCountStep2" />
       </list>
     </recent_temporary>
   </component>

@@ -1,6 +1,5 @@
-package edu360.mr.orderTopN;
+package edu360.mr.order.TopN;
 
-import edu360.mr.index.IndexStep2;
 import org.apache.hadoop.conf.Configuration;
 import org.apache.hadoop.fs.Path;
 import org.apache.hadoop.io.LongWritable;

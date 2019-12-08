@@ -1,4 +1,4 @@
-package edu360.mr.orderTopN;
+package edu360.mr.order.TopnGrouping;
 
 import org.apache.hadoop.io.WritableComparable;
 
@@ -114,7 +114,10 @@ public class OrderBean implements WritableComparable<OrderBean> {
 //       else{
 //           return -1;
 //       }
-        return Float.compare(o.getAmount(),this.getAmount())==0?this.pdtName.compareTo(o.getPdtName()):Float.compare(o.getAmount(),this.getAmount());
+
+
+        return this.orderId.compareTo(o.getOrderId())==0?Float.compare(o.getAmount(),this.getAmount()):this.orderId.compareTo(o.getOrderId());
+
 
 
     }
