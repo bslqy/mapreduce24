@@ -66,6 +66,13 @@ public class ReduceJoin {
 
     public static class ReduceJoinReducer extends Reducer<Text,JoinBean,JoinBean, NullWritable> {
         // 区分User表和Order表。
+        // 目前问题，计算太复杂. 可能存在 user1,user2,order21,order11,order12,...order1n,user2,order21,order22,order12,...order1n  情况
+        // 希望 分发时候即可实现 user1,order11,order12...user2,order21,order22, 这样reduce不需要处理逻辑，直接拿出来赋值即可.
+        // 三件套上:
+        //
+        // 1. 现在只是比较userID,需要userID相同时比较表名. JoinBean类实现 Comparable （WritableComparable). 重载 compareTo().
+        // 2. 修改分发规则 Partitioner. (Same user ID)
+        // 3. Reducer 修改 GroupingComparator. 比较ID以及Order
 
 
         @Override
@@ -76,7 +83,7 @@ public class ReduceJoin {
                 // 区分两类数据
                 for (JoinBean bean : beans) {
                     if ("order".equals(bean.getTableName())) {
-                        // 创建新对象，把新对象拷贝到容器中。否则全部都会一样值
+                        // 创建新对象，把新对象拷贝到容器中。否则全部都会一样值(ArrayList)
                         JoinBean newOrderBean = new JoinBean();
                         BeanUtils.copyProperties(newOrderBean,bean);
                         orderList.add(newOrderBean);

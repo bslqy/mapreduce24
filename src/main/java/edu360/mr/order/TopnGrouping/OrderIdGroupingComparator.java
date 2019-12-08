@@ -19,6 +19,7 @@ public class OrderIdGroupingComparator extends WritableComparator {
         OrderBean o2 = (OrderBean) b;
 
 
+
         return o1.getOrderId().compareTo(o2.getOrderId());
     }
 }
