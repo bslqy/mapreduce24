@@ -76,20 +76,17 @@ public class ReduceJoin2 {
         protected void reduce(Text key, Iterable<JoinBean2> beans, Context context) throws IOException, InterruptedException {
             // 读取第一个,必定为user
 
-
             Iterator<JoinBean2> iterator = beans.iterator();
             JoinBean2 userBean = iterator.next();
             String userName = userBean.getUserName();
             int userAge = userBean.getUserAge();
             String userFriend = userBean.getUserFriend();
 
-            JoinBean2 order = null;
             NullWritable v = NullWritable.get();
-
 
             // @TODO 处理相同对象问题
             while(iterator.hasNext()){
-                order = iterator.next();
+                JoinBean2 order = iterator.next();
                 order.setUserName(userName);
                 order.setUserAge(userAge);
                 order.setUserFriend(userFriend);
@@ -122,8 +119,11 @@ public class ReduceJoin2 {
 
             job.setNumReduceTasks(5);
 
-            FileInputFormat.setInputPaths(job, new Path("D:/UoM/mapreduce24/HadoopTest/Join2Input"));
-            FileOutputFormat.setOutputPath(job, new Path("D:/UoM/mapreduce24/HadoopTest/Join2Output"));
+            FileInputFormat.setInputPaths(job, new Path("C:/Users/LiaoG/HadoopTest/Join2Input"));
+            FileOutputFormat.setOutputPath(job, new Path("C:/Users/LiaoG/HadoopTest/Join2Output"));
+
+//            FileInputFormat.setInputPaths(job, new Path("D:/UoM/mapreduce24/HadoopTest/Join2Input"));
+//            FileOutputFormat.setOutputPath(job, new Path("D:/UoM/mapreduce24/HadoopTest/Join2Output"));
 
             job.waitForCompletion(true);
 

@@ -17,7 +17,7 @@ public class ReduceJoin2GroupingComparator extends WritableComparator {
         Text o2 = (Text) b;
 
         String userId1 = o1.toString().split(",")[0];
-        String userId2 = o1.toString().split(",")[0];
+        String userId2 = o2.toString().split(",")[0];
 
         return userId1.compareTo(userId2) ;
     }
