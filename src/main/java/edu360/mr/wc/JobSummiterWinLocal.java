@@ -49,6 +49,10 @@ public class JobSummiterWinLocal {
         job.setOutputKeyClass(Text.class);
         job.setMapOutputValueClass(IntWritable.class);
 
+        // Day 06 - 03.mapreduce数据倾斜--利用Combiner组件 maptask端局部聚合数据来减轻倾斜影响
+        // 设置maptask端的局部聚合
+        job.setCombinerClass(WordCountCombiner.class);
+
 
 //        File output = new File("C:/Users/LiaoG/HadoopTest/output");
 //        if(output.exists()){
