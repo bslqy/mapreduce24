@@ -2,9 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d895014e-0bd4-45ed-887b-7cedecce1a97" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/edu360/mr/index/IndexStep1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/edu360/mr/index/IndexStep2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/edu360/mr/join/JoinBean2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/edu360/mr/join/ReduceJoin2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/edu360/mr/join/ReduceJoin2GroupingComparator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/edu360/mr/join/ReduceJoin2Partitioner.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/edu360/mr/join/ReduceJoin2SortingComparator.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/edu360/mr/join/ReduceJoin.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/edu360/mr/join/ReduceJoin.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/edu360/mr/order/TopnGrouping/OrderIdGroupingComparator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/edu360/mr/order/TopnGrouping/OrderIdGroupingComparator.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -53,7 +58,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
-    <property name="last_opened_file_path" value="C:/Program Files/Java" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/resources" />
     <property name="project.structure.last.edited" value="SDKs" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
@@ -64,13 +69,15 @@
       <recent name="edu360.mr.flow" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\UoM\mapreduce24\src\main\resources" />
       <recent name="D:\UoM\mapreduce24\target" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="edu360.mr.join" />
+      <recent name="edu360.mr.order.TopnGrouping" />
       <recent name="edu360.mr.flowProvince" />
       <recent name="edu360.mr.page.topN" />
       <recent name="edu360.mr.page.count.sort" />
-      <recent name="edu360.mr.wc" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="P:\Reporting &amp; Insights\Temp\java\src\main\resources" />
@@ -91,13 +98,13 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.IndexStep2">
-    <configuration name="IndexStep1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="edu360.mr.index.IndexStep1" />
-      <module name="java" />
+  <component name="RunManager" selected="Application.ReduceJoin2$ReduceJoin2Reducer">
+    <configuration name="CommonFriendsOne" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="edu360.mr.CommonFriends.CommonFriendsOne" />
+      <module name="mapreduce24" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="edu360.mr.index.*" />
+          <option name="PATTERN" value="edu360.mr.CommonFriends.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -105,12 +112,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="IndexStep2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="edu360.mr.index.IndexStep2" />
-      <module name="java" />
+    <configuration name="OrderTopnGrouping" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="edu360.mr.order.TopnGrouping.OrderTopnGrouping" />
+      <module name="mapreduce24" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="edu360.mr.index.*" />
+          <option name="PATTERN" value="edu360.mr.order.TopnGrouping.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -118,12 +125,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="PageCountStep1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="edu360.mr.page.count.sort.PageCountStep1" />
-      <module name="java" />
+    <configuration name="ReduceJoin$ReduceJoinReducer" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="edu360.mr.join.ReduceJoin$ReduceJoinReducer" />
+      <module name="mapreduce24" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="edu360.mr.page.count.sort.*" />
+          <option name="PATTERN" value="edu360.mr.join.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -131,12 +138,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="PageCountStep2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="edu360.mr.page.count.sort.PageCountStep2" />
-      <module name="java" />
+    <configuration name="ReduceJoin2$ReduceJoin2Reducer" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="edu360.mr.join.ReduceJoin2$ReduceJoin2Reducer" />
+      <module name="mapreduce24" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="edu360.mr.page.count.sort.*" />
+          <option name="PATTERN" value="edu360.mr.join.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -144,13 +151,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="jobSubmitter" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="edu360.mr.page.topN.jobSubmitter" />
-      <module name="java" />
-      <option name="PROGRAM_PARAMETERS" value="4" />
+    <configuration name="test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="edu360.mr.join.test" />
+      <module name="mapreduce24" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="edu360.mr.page.topN.*" />
+          <option name="PATTERN" value="edu360.mr.join.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -159,19 +165,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.jobSubmitter" />
-      <item itemvalue="Application.PageCountStep1" />
-      <item itemvalue="Application.PageCountStep2" />
-      <item itemvalue="Application.IndexStep1" />
-      <item itemvalue="Application.IndexStep2" />
+      <item itemvalue="Application.OrderTopnGrouping" />
+      <item itemvalue="Application.CommonFriendsOne" />
+      <item itemvalue="Application.ReduceJoin$ReduceJoinReducer" />
+      <item itemvalue="Application.test" />
+      <item itemvalue="Application.ReduceJoin2$ReduceJoin2Reducer" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.IndexStep2" />
-        <item itemvalue="Application.IndexStep1" />
-        <item itemvalue="Application.PageCountStep1" />
-        <item itemvalue="Application.PageCountStep2" />
-        <item itemvalue="Application.jobSubmitter" />
+        <item itemvalue="Application.ReduceJoin2$ReduceJoin2Reducer" />
+        <item itemvalue="Application.ReduceJoin$ReduceJoinReducer" />
+        <item itemvalue="Application.test" />
+        <item itemvalue="Application.CommonFriendsOne" />
+        <item itemvalue="Application.OrderTopnGrouping" />
       </list>
     </recent_temporary>
   </component>
@@ -207,7 +213,42 @@
       <option name="project" value="LOCAL" />
       <updated>1575517628368</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Hadoop Day05 - 04. mr编程案例--高效求分组topn的代码实现. 关键点为自定义GroupingComparator以及自定义Partitioner">
+      <created>1575766586728</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1575766586729</updated>
+    </task>
+    <task id="LOCAL-00005" summary="Hadoop Day05 - 04. mr编程案例--高效求分组topn的代码实现. 关键点为自定义GroupingComparator以及自定义Partitioner">
+      <created>1575766628695</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1575766628695</updated>
+    </task>
+    <task id="LOCAL-00006" summary="Hadoop Day05 - 04. mr编程案例--高效求分组topn的代码实现. 关键点为自定义GroupingComparator以及自定义Partitioner">
+      <created>1575802936270</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1575802936270</updated>
+    </task>
+    <task id="LOCAL-00007" summary="Hadoop Day05 - 05.mr编程案例--共同好友统计案例实现">
+      <created>1575802970044</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1575802970044</updated>
+    </task>
+    <task id="LOCAL-00008" summary="Hadoop Day06 - 02.mapreduce编程案例--join算法的代码实现">
+      <created>1575803004710</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1575803004710</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -227,6 +268,16 @@
     <MESSAGE value="2019/12/02" />
     <MESSAGE value="04 - 10. MapReduce TopN" />
     <MESSAGE value="04 - 11. MapReduce with 2 MapReduce Tasks" />
-    <option name="LAST_COMMIT_MESSAGE" value="04 - 11. MapReduce with 2 MapReduce Tasks" />
+    <MESSAGE value="Hadoop Day05 - 04. mr编程案例--高效求分组topn的代码实现. 关键点为自定义GroupingComparator以及自定义Partitioner" />
+    <MESSAGE value="Hadoop Day05 - 05.mr编程案例--共同好友统计案例实现" />
+    <MESSAGE value="Hadoop Day06 - 02.mapreduce编程案例--join算法的代码实现" />
+    <option name="LAST_COMMIT_MESSAGE" value="Hadoop Day06 - 02.mapreduce编程案例--join算法的代码实现" />
+  </component>
+  <component name="XDebuggerManager">
+    <watches-manager>
+      <configuration name="Application">
+        <watch expression="userBean" />
+      </configuration>
+    </watches-manager>
   </component>
 </project>
