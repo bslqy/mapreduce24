@@ -2,14 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d895014e-0bd4-45ed-887b-7cedecce1a97" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/edu360/mr/join/JoinBean2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/edu360/mr/join/ReduceJoin2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/edu360/mr/join/ReduceJoin2GroupingComparator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/edu360/mr/join/ReduceJoin2Partitioner.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/edu360/mr/join/ReduceJoin2SortingComparator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/cn/edu360/zk/demo/ZookeeperClientDemo.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/edu360/mr/join/ReduceJoin.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/edu360/mr/join/ReduceJoin.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/edu360/mr/order/TopnGrouping/OrderIdGroupingComparator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/edu360/mr/order/TopnGrouping/OrderIdGroupingComparator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -98,33 +93,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.ReduceJoin2$ReduceJoin2Reducer">
-    <configuration name="CommonFriendsOne" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="edu360.mr.CommonFriends.CommonFriendsOne" />
-      <module name="mapreduce24" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="edu360.mr.CommonFriends.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="OrderTopnGrouping" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="edu360.mr.order.TopnGrouping.OrderTopnGrouping" />
-      <module name="mapreduce24" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="edu360.mr.order.TopnGrouping.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="JUnit.ZookeeperClientDemo.ListChildren">
     <configuration name="ReduceJoin$ReduceJoinReducer" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="edu360.mr.join.ReduceJoin$ReduceJoinReducer" />
       <module name="mapreduce24" />
@@ -151,33 +120,68 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="edu360.mr.join.test" />
+    <configuration name="ZookeeperClientDemo.ListChildren" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="mapreduce24" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="edu360.mr.join.*" />
+          <option name="PATTERN" value="cn.edu360.zk.demo.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+      <option name="PACKAGE_NAME" value="cn.edu360.zk.demo" />
+      <option name="MAIN_CLASS_NAME" value="cn.edu360.zk.demo.ZookeeperClientDemo" />
+      <option name="METHOD_NAME" value="ListChildren" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ZookeeperClientDemo.testCreate" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="mapreduce24" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="cn.edu360.zk.demo.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="cn.edu360.zk.demo" />
+      <option name="MAIN_CLASS_NAME" value="cn.edu360.zk.demo.ZookeeperClientDemo" />
+      <option name="METHOD_NAME" value="testCreate" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ZookeeperClientDemo.testUpdate" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="mapreduce24" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="cn.edu360.zk.demo.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="cn.edu360.zk.demo" />
+      <option name="MAIN_CLASS_NAME" value="cn.edu360.zk.demo.ZookeeperClientDemo" />
+      <option name="METHOD_NAME" value="testUpdate" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.OrderTopnGrouping" />
-      <item itemvalue="Application.CommonFriendsOne" />
       <item itemvalue="Application.ReduceJoin$ReduceJoinReducer" />
-      <item itemvalue="Application.test" />
       <item itemvalue="Application.ReduceJoin2$ReduceJoin2Reducer" />
+      <item itemvalue="JUnit.ZookeeperClientDemo.testCreate" />
+      <item itemvalue="JUnit.ZookeeperClientDemo.testUpdate" />
+      <item itemvalue="JUnit.ZookeeperClientDemo.ListChildren" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.ZookeeperClientDemo.ListChildren" />
+        <item itemvalue="JUnit.ZookeeperClientDemo.testUpdate" />
+        <item itemvalue="JUnit.ZookeeperClientDemo.testCreate" />
         <item itemvalue="Application.ReduceJoin2$ReduceJoin2Reducer" />
         <item itemvalue="Application.ReduceJoin$ReduceJoinReducer" />
-        <item itemvalue="Application.test" />
-        <item itemvalue="Application.CommonFriendsOne" />
-        <item itemvalue="Application.OrderTopnGrouping" />
       </list>
     </recent_temporary>
   </component>
@@ -248,7 +252,14 @@
       <option name="project" value="LOCAL" />
       <updated>1575803004710</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="Hadoop Day06 - 02.mapreduce编程案例--join算法的代码高效实现. 多写一个SortComparator实现Map组内排序">
+      <created>1575813874480</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1575813874480</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -271,7 +282,8 @@
     <MESSAGE value="Hadoop Day05 - 04. mr编程案例--高效求分组topn的代码实现. 关键点为自定义GroupingComparator以及自定义Partitioner" />
     <MESSAGE value="Hadoop Day05 - 05.mr编程案例--共同好友统计案例实现" />
     <MESSAGE value="Hadoop Day06 - 02.mapreduce编程案例--join算法的代码实现" />
-    <option name="LAST_COMMIT_MESSAGE" value="Hadoop Day06 - 02.mapreduce编程案例--join算法的代码实现" />
+    <MESSAGE value="Hadoop Day06 - 02.mapreduce编程案例--join算法的代码高效实现. 多写一个SortComparator实现Map组内排序" />
+    <option name="LAST_COMMIT_MESSAGE" value="Hadoop Day06 - 02.mapreduce编程案例--join算法的代码高效实现. 多写一个SortComparator实现Map组内排序" />
   </component>
   <component name="XDebuggerManager">
     <watches-manager>
