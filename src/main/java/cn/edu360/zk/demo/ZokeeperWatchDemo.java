@@ -28,7 +28,7 @@ public class ZokeeperWatchDemo {
                     // Handling
                     System.out.println("change");
 
-                    //实现长期监听
+                    //实现长期监听,需要在zookeeper构造器中写出回调逻辑.再次注册相同路径
                     try {
                         zk.getData("/mygirl", true, null);
                     } catch (KeeperException | InterruptedException e) {
