@@ -2,9 +2,47 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d895014e-0bd4-45ed-887b-7cedecce1a97" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/java/cn/edu360/hbase/demo/HbaseClientDemo.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/cn/edu360/zk/demo/Consumer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cn/edu360/zk/demo/Consumer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/cn/edu360/zk/demo/ZokeeperWatchDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cn/edu360/zk/demo/ZokeeperWatchDemo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/edu360/mr/CommonFriends/CommonFriendsOne.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cn/edu360/mr/CommonFriends/CommonFriendsOne.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/edu360/mr/flow/FlowBean.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cn/edu360/mr/flow/FlowBean.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/edu360/mr/flow/FlowCountMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cn/edu360/mr/flow/FlowCountMapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/edu360/mr/flow/FlowCountReducer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cn/edu360/mr/flow/FlowCountReducer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/edu360/mr/flow/JobSubmitter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cn/edu360/mr/flow/JobSubmitter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/edu360/mr/flowProvince/FlowBean.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cn/edu360/mr/flowProvince/FlowBean.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/edu360/mr/flowProvince/FlowCountMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cn/edu360/mr/flowProvince/FlowCountMapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/edu360/mr/flowProvince/FlowCountReducer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cn/edu360/mr/flowProvince/FlowCountReducer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/edu360/mr/flowProvince/JobSubmitter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cn/edu360/mr/flowProvince/JobSubmitter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/edu360/mr/flowProvince/ProvincePartitioner.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cn/edu360/mr/flowProvince/ProvincePartitioner.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/edu360/mr/index/IndexStep1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cn/edu360/mr/index/IndexStep1.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/edu360/mr/index/IndexStep2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cn/edu360/mr/index/IndexStep2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/edu360/mr/join/JoinBean.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cn/edu360/mr/join/JoinBean.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/edu360/mr/join/JoinBean2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cn/edu360/mr/join/JoinBean2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/edu360/mr/join/ReduceJoin.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cn/edu360/mr/join/ReduceJoin.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/edu360/mr/join/ReduceJoin2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cn/edu360/mr/join/ReduceJoin2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/edu360/mr/join/ReduceJoin2GroupingComparator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cn/edu360/mr/join/ReduceJoin2GroupingComparator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/edu360/mr/join/ReduceJoin2Partitioner.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cn/edu360/mr/join/ReduceJoin2Partitioner.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/edu360/mr/join/ReduceJoin2SortingComparator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cn/edu360/mr/join/ReduceJoin2SortingComparator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/edu360/mr/order/TopN/OrderBean.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cn/edu360/mr/order/TopN/OrderBean.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/edu360/mr/order/TopN/OrderTopn.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cn/edu360/mr/order/TopN/OrderTopn.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/edu360/mr/order/TopnGrouping/OrderBean.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cn/edu360/mr/order/TopnGrouping/OrderBean.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/edu360/mr/order/TopnGrouping/OrderIdGroupingComparator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cn/edu360/mr/order/TopnGrouping/OrderIdGroupingComparator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/edu360/mr/order/TopnGrouping/OrderIdPartitioner.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cn/edu360/mr/order/TopnGrouping/OrderIdPartitioner.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/edu360/mr/order/TopnGrouping/OrderTopnGrouping.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cn/edu360/mr/order/TopnGrouping/OrderTopnGrouping.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/edu360/mr/page/count/sort/PageCount.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cn/edu360/mr/page/count/sort/PageCount.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/edu360/mr/page/count/sort/PageCountStep1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cn/edu360/mr/page/count/sort/PageCountStep1.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/edu360/mr/page/count/sort/PageCountStep2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cn/edu360/mr/page/count/sort/PageCountStep2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/edu360/mr/page/topN/PageCount.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cn/edu360/mr/page/topN/PageCount.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/edu360/mr/page/topN/PageTopNMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cn/edu360/mr/page/topN/PageTopNMapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/edu360/mr/page/topN/PageTopNReducer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cn/edu360/mr/page/topN/PageTopNReducer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/edu360/mr/page/topN/jobSubmitter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cn/edu360/mr/page/topN/jobSubmitter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/edu360/mr/wc/JobSummiterHadoop.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cn/edu360/mr/wc/JobSummiterHadoop.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/edu360/mr/wc/JobSummiterWinLocal.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cn/edu360/mr/wc/JobSummiterWinLocal.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/edu360/mr/wc/JobSummiterWinToYarn.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cn/edu360/mr/wc/JobSummiterWinToYarn.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/edu360/mr/wc/WordCountCombiner.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cn/edu360/mr/wc/WordCountCombiner.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/edu360/mr/wc/WordcountMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cn/edu360/mr/wc/WordcountMapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/edu360/mr/wc/WordcountReducer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cn/edu360/mr/wc/WordcountReducer.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -14,6 +52,9 @@
   </component>
   <component name="CodeStyleSettingsInfer">
     <option name="done" value="true" />
+  </component>
+  <component name="FavoritesManager">
+    <favorites_list name="mapreduce24" />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -61,8 +102,11 @@
     <property name="settings.editor.selected.configurable" value="MavenSettings" />
   </component>
   <component name="RecentsManager">
-    <key name="CreateClassDialog.RecentsKey">
-      <recent name="edu360.mr.flow" />
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="P:\Reporting &amp; Insights\Temp\java\src\main\resources" />
+      <recent name="D:\UoM\mapreduce24\src\main\resources" />
+      <recent name="D:\UoM\mapreduce24\src\main\java" />
+      <recent name="D:\UoM\mapreduce24\target" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="D:\UoM\mapreduce24\src\main\resources" />
@@ -75,11 +119,8 @@
       <recent name="edu360.mr.page.topN" />
       <recent name="edu360.mr.page.count.sort" />
     </key>
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="P:\Reporting &amp; Insights\Temp\java\src\main\resources" />
-      <recent name="D:\UoM\mapreduce24\src\main\resources" />
-      <recent name="D:\UoM\mapreduce24\src\main\java" />
-      <recent name="D:\UoM\mapreduce24\target" />
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="edu360.mr.flow" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -94,7 +135,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.TimeQueryServer">
+  <component name="RunManager" selected="JUnit.HbaseClientDemo.testCreateTable">
     <configuration name="JobSummiterWinLocal" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="edu360.mr.wc.JobSummiterWinLocal" />
       <module name="java" />
@@ -148,33 +189,36 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="edu360.mr.join.test" />
+    <configuration name="HbaseClientDemo.testCreateTable" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="mapreduce24" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="edu360.mr.join.*" />
+          <option name="PATTERN" value="cn.edu360.hbase.demo.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+      <option name="PACKAGE_NAME" value="cn.edu360.hbase.demo" />
+      <option name="MAIN_CLASS_NAME" value="cn.edu360.hbase.demo.HbaseClientDemo" />
+      <option name="METHOD_NAME" value="testCreateTable" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <list>
       <item itemvalue="Application.ReduceJoin$ReduceJoinReducer" />
-      <item itemvalue="Application.test" />
       <item itemvalue="Application.ReduceJoin2$ReduceJoin2Reducer" />
       <item itemvalue="Application.JobSummiterWinLocal" />
       <item itemvalue="Application.TimeQueryServer" />
+      <item itemvalue="JUnit.HbaseClientDemo.testCreateTable" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.HbaseClientDemo.testCreateTable" />
         <item itemvalue="Application.TimeQueryServer" />
         <item itemvalue="Application.JobSummiterWinLocal" />
         <item itemvalue="Application.ReduceJoin2$ReduceJoin2Reducer" />
         <item itemvalue="Application.ReduceJoin$ReduceJoinReducer" />
-        <item itemvalue="Application.test" />
       </list>
     </recent_temporary>
   </component>
@@ -259,7 +303,14 @@
       <option name="project" value="LOCAL" />
       <updated>1576209107900</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="Hadoop Day06 - 16.利用zookeeper开发分布式应用系统案例--客户端实现--运行测试">
+      <created>1576239499149</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1576239499149</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -284,7 +335,8 @@
     <MESSAGE value="Hadoop Day06 - 02.mapreduce编程案例--join算法的代码实现" />
     <MESSAGE value="Hadoop Day06 - 02.mapreduce编程案例--join算法的代码实现(顺序赋值. user1,order11,order12... 只在reducer数量等于用户数量时可用)" />
     <MESSAGE value="Hadoop Day06 - 13.zookeeper的java客户端api的监听功能代码示范" />
-    <option name="LAST_COMMIT_MESSAGE" value="Hadoop Day06 - 13.zookeeper的java客户端api的监听功能代码示范" />
+    <MESSAGE value="Hadoop Day06 - 16.利用zookeeper开发分布式应用系统案例--客户端实现--运行测试" />
+    <option name="LAST_COMMIT_MESSAGE" value="Hadoop Day06 - 16.利用zookeeper开发分布式应用系统案例--客户端实现--运行测试" />
   </component>
   <component name="XDebuggerManager">
     <watches-manager>
