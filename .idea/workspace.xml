@@ -2,9 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d895014e-0bd4-45ed-887b-7cedecce1a97" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/cn/edu360/hbase/demo/HbaseClietnDML.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/cn/edu360/app/log/mr/AppLogDataClean.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/cn/edu360/app/log/mr/GlobalConstants.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
