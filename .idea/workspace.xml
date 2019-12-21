@@ -2,11 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d895014e-0bd4-45ed-887b-7cedecce1a97" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/cn/edu360/app/log/mr/AppLogDataClean.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/cn/edu360/app/log/mr/GlobalConstants.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/cn/edu360/app/log/mr/JsonToStringUtil.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/cn/edu360/app/log/mr/AppLogDataClean.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cn/edu360/app/log/mr/AppLogDataClean.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/cn/edu360/app/log/mr/GlobalConstants.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cn/edu360/app/log/mr/GlobalConstants.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -99,13 +100,14 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.HbaseClientDemo.testCreateTable">
-    <configuration name="JobSummiterWinLocal" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="edu360.mr.wc.JobSummiterWinLocal" />
-      <module name="java" />
+  <component name="RunManager" selected="Application.AppLogDataClean">
+    <configuration name="AppLogDataClean" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="cn.edu360.app.log.mr.AppLogDataClean" />
+      <module name="mapreduce24" />
+      <option name="PROGRAM_PARAMETERS" value="$PROJECT_DIR$/HadoopTest/AppLogInput/20170814new $PROJECT_DIR$/HadoopTest/AppLogOutput/20170814out" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="edu360.mr.wc.*" />
+          <option name="PATTERN" value="cn.edu360.app.log.mr.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -114,24 +116,11 @@
       </method>
     </configuration>
     <configuration name="ReduceJoin$ReduceJoinReducer" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="edu360.mr.join.ReduceJoin$ReduceJoinReducer" />
+      <option name="MAIN_CLASS_NAME" value="cn.edu360.mr.join.ReduceJoin$ReduceJoinReducer" />
       <module name="mapreduce24" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="edu360.mr.join.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="ReduceJoin2$ReduceJoin2Reducer" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="edu360.mr.join.ReduceJoin2$ReduceJoin2Reducer" />
-      <module name="java" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="edu360.mr.join.*" />
+          <option name="PATTERN" value="cn.edu360.mr.join.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -169,20 +158,36 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="test.print" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="mapreduce24" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="cn.edu360.app.log.mr.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="cn.edu360.app.log.mr" />
+      <option name="MAIN_CLASS_NAME" value="cn.edu360.app.log.mr.test" />
+      <option name="METHOD_NAME" value="print" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <list>
-      <item itemvalue="Application.ReduceJoin$ReduceJoinReducer" />
-      <item itemvalue="Application.ReduceJoin2$ReduceJoin2Reducer" />
-      <item itemvalue="Application.JobSummiterWinLocal" />
       <item itemvalue="Application.TimeQueryServer" />
+      <item itemvalue="Application.AppLogDataClean" />
+      <item itemvalue="Application.ReduceJoin$ReduceJoinReducer" />
       <item itemvalue="JUnit.HbaseClientDemo.testCreateTable" />
+      <item itemvalue="JUnit.test.print" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.AppLogDataClean" />
+        <item itemvalue="Application.ReduceJoin$ReduceJoinReducer" />
+        <item itemvalue="JUnit.test.print" />
         <item itemvalue="JUnit.HbaseClientDemo.testCreateTable" />
         <item itemvalue="Application.TimeQueryServer" />
-        <item itemvalue="Application.JobSummiterWinLocal" />
-        <item itemvalue="Application.ReduceJoin2$ReduceJoin2Reducer" />
-        <item itemvalue="Application.ReduceJoin$ReduceJoinReducer" />
       </list>
     </recent_temporary>
   </component>
@@ -274,7 +279,14 @@
       <option name="project" value="LOCAL" />
       <updated>1576239499149</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="Hadoop Day09 - 15.hbase的java客户端操作--表定义管理">
+      <created>1576617752605</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1576617752605</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -300,10 +312,19 @@
     <MESSAGE value="Hadoop Day06 - 02.mapreduce编程案例--join算法的代码实现(顺序赋值. user1,order11,order12... 只在reducer数量等于用户数量时可用)" />
     <MESSAGE value="Hadoop Day06 - 13.zookeeper的java客户端api的监听功能代码示范" />
     <MESSAGE value="Hadoop Day06 - 16.利用zookeeper开发分布式应用系统案例--客户端实现--运行测试" />
-    <MESSAGE value="Hadoop Day06 - 03.hbase客户端编程DML--范围查询--scan" />
-    <option name="LAST_COMMIT_MESSAGE" value="Hadoop Day06 - 03.hbase客户端编程DML--范围查询--scan" />
+    <MESSAGE value="Hadoop Day09 - 15.hbase的java客户端操作--表定义管理" />
+    <option name="LAST_COMMIT_MESSAGE" value="Hadoop Day09 - 15.hbase的java客户端操作--表定义管理" />
   </component>
   <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/cn/edu360/app/log/mr/JsonToStringUtil.java</url>
+          <line>41</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
     <watches-manager>
       <configuration name="Application">
         <watch expression="userBean" />

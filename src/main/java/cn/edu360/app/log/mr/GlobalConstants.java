@@ -23,4 +23,19 @@ public class GlobalConstants {
     public static final String	RESOLUTION = "resolution"     ;
     public static final String	NET_TYPE = "net_type"      ;
     public static final String	ANDRIOD_ID = "android_id"      ;
+    public static final String	ACCOUNT = "account"      ;
+    public static final String	MAC = "mac"      ;
+    public static final String	APP_DEVICE_ID = "app_device_id"      ;
+    public static final String	IMEI = "imei"      ;
+    public static final String	CID_SN = "cid_sn"      ;
+    public static final String	BUILD_NUM = "build_num"      ;
+    public static final String	MOBILE_DATA_TYPE = "mobile_data_type"      ;
+    public static final String	PROMOTION_CHANNEL = "promotion_channel"      ;
+    public static final String	CARRIER = "carrier"      ;
+    public static final String	CITY = "city"      ;
+    public static final String	USER_ID = "user_id"      ;
+
+
+
+
 }
