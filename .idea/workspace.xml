@@ -1,13 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="ArtifactsWorkspaceSettings">
+    <artifacts-to-build>
+      <artifact name="mapreduce24:jar" />
+    </artifacts-to-build>
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="d895014e-0bd4-45ed-887b-7cedecce1a97" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/cn/edu360/app/log/mr/JsonToStringUtil.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/artifacts/mapreduce24_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/META-INF/MANIFEST.MF" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resrouce/META-INF/MANIFEST.MF" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/cn/edu360/app/log/mr/AppLogDataClean.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cn/edu360/app/log/mr/AppLogDataClean.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/cn/edu360/app/log/mr/GlobalConstants.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cn/edu360/app/log/mr/GlobalConstants.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -60,10 +66,10 @@
   </component>
   <component name="PropertiesComponent">
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/resources" />
-    <property name="project.structure.last.edited" value="SDKs" />
+    <property name="last_opened_file_path" value="D:/" />
+    <property name="project.structure.last.edited" value="Artifacts" />
     <property name="project.structure.proportion" value="0.15" />
-    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="project.structure.side.proportion" value="0.20546737" />
     <property name="settings.editor.selected.configurable" value="MavenSettings" />
   </component>
   <component name="RecentsManager">
@@ -102,6 +108,8 @@
   </component>
   <component name="RunManager" selected="Application.AppLogDataClean">
     <configuration name="AppLogDataClean" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="ALTERNATIVE_JRE_PATH" value="1.8" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
       <option name="MAIN_CLASS_NAME" value="cn.edu360.app.log.mr.AppLogDataClean" />
       <module name="mapreduce24" />
       <option name="PROGRAM_PARAMETERS" value="$PROJECT_DIR$/HadoopTest/AppLogInput/20170814new $PROJECT_DIR$/HadoopTest/AppLogOutput/20170814out" />
@@ -286,7 +294,14 @@
       <option name="project" value="LOCAL" />
       <updated>1576617752605</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="Hadoop Day11 - 02.app数据分析--预处理程序继续改造">
+      <created>1576896943006</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1576896943006</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -313,7 +328,8 @@
     <MESSAGE value="Hadoop Day06 - 13.zookeeper的java客户端api的监听功能代码示范" />
     <MESSAGE value="Hadoop Day06 - 16.利用zookeeper开发分布式应用系统案例--客户端实现--运行测试" />
     <MESSAGE value="Hadoop Day09 - 15.hbase的java客户端操作--表定义管理" />
-    <option name="LAST_COMMIT_MESSAGE" value="Hadoop Day09 - 15.hbase的java客户端操作--表定义管理" />
+    <MESSAGE value="Hadoop Day11 - 02.app数据分析--预处理程序继续改造" />
+    <option name="LAST_COMMIT_MESSAGE" value="Hadoop Day11 - 02.app数据分析--预处理程序继续改造" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

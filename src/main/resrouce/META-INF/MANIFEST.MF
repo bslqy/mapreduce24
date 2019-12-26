@@ -1,0 +1,39 @@
+Manifest-Version: 1.0
+Main-Class: cn.edu360.app.log.mr.AppLogDataClean
+Class-Path: avro-1.7.4.jar htrace-core-3.1.0-incubating.jar leveldbjni-a
+ ll-1.8.jar hadoop-common-2.8.1.jar api-asn1-api-1.0.0-M20.jar log4j-1.2
+ .17.jar jsp-api-2.1.jar hadoop-yarn-client-2.8.1.jar commons-logging-1.
+ 1.3.jar junit-jupiter-5.6.0-M1.jar hbase-client-1.2.1.jar hadoop-auth-2
+ .8.1.jar curator-client-2.7.1.jar commons-compress-1.4.1.jar slf4j-log4
+ j12-1.7.10.jar hadoop-hdfs-2.8.1.jar jettison-1.1.jar activation-1.1.ja
+ r commons-configuration-1.6.jar joni-2.1.2.jar commons-beanutils-1.7.0.
+ jar guava-11.0.2.jar okhttp-2.4.0.jar commons-collections-3.2.2.jar api
+ guardian-api-1.1.0.jar java-xmlbuilder-0.4.jar jetty-util-6.1.26.jar js
+ ch-0.1.51.jar paranamer-2.3.jar opentest4j-1.2.0.jar curator-recipes-2.
+ 7.1.jar httpclient-4.5.2.jar stax-api-1.0-2.jar servlet-api-2.5.jar jer
+ sey-core-1.9.jar jersey-client-1.9.jar api-util-1.0.0-M20.jar hbase-pro
+ tocol-1.2.1.jar jaxb-impl-2.2.3-1.jar jackson-xc-1.8.3.jar jline-0.9.94
+ .jar hadoop-client-2.8.1.jar apacheds-kerberos-codec-2.0.0-M15.jar jers
+ ey-server-1.9.jar htrace-core4-4.0.1-incubating.jar commons-cli-1.2.jar
+  jets3t-0.9.0.jar slf4j-api-1.7.10.jar json-smart-1.1.1.jar commons-bea
+ nutils-core-1.8.0.jar junit-4.12.jar asm-3.1.jar hbase-annotations-1.2.
+ 1.jar hadoop-yarn-server-common-2.8.1.jar curator-framework-2.7.1.jar x
+ z-1.0.jar okio-1.4.0.jar hadoop-annotations-2.8.1.jar netty-all-4.0.23.
+ Final.jar hadoop-mapreduce-client-core-2.8.1.jar findbugs-annotations-1
+ .3.9-1.jar junit-jupiter-api-5.6.0-M1.jar junit-jupiter-params-5.6.0-M1
+ .jar hadoop-hdfs-client-2.8.1.jar jackson-mapper-asl-1.9.13.jar jackson
+ -core-asl-1.9.13.jar hadoop-mapreduce-client-jobclient-2.8.1.jar junit-
+ platform-commons-1.6.0-M1.jar commons-codec-1.4.jar jersey-json-1.9.jar
+  zookeeper-3.4.6.jar jsr305-3.0.0.jar hadoop-mapreduce-client-app-2.8.1
+ .jar snappy-java-1.0.4.1.jar hadoop-mapreduce-client-common-2.8.1.jar c
+ ommons-digester-1.8.jar hadoop-yarn-api-2.8.1.jar jcip-annotations-1.0.
+ jar jcodings-1.0.8.jar hadoop-mapreduce-client-shuffle-2.8.1.jar metric
+ s-core-2.2.0.jar commons-lang-2.6.jar hamcrest-core-1.3.jar commons-net
+ -3.1.jar protobuf-java-2.5.0.jar gson-2.2.4.jar httpcore-4.4.4.jar comm
+ ons-math3-3.1.1.jar netty-3.7.0.Final.jar fastjson-1.2.60.jar junit-pla
+ tform-engine-1.6.0-M1.jar nimbus-jose-jwt-3.9.jar apacheds-i18n-2.0.0-M
+ 15.jar jaxb-api-2.2.2.jar jetty-sslengine-6.1.26.jar junit-jupiter-engi
+ ne-5.6.0-M1.jar hadoop-yarn-common-2.8.1.jar jackson-jaxrs-1.8.3.jar hb
+ ase-common-1.2.1.jar commons-io-2.4.jar jetty-6.1.26.jar xmlenc-0.52.ja
+ r
+
