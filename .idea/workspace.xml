@@ -7,13 +7,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d895014e-0bd4-45ed-887b-7cedecce1a97" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/artifacts/mapreduce24_jar.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/META-INF/MANIFEST.MF" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resrouce/META-INF/MANIFEST.MF" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/cn/edu360/LuceneDemo/Article.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/cn/edu360/LuceneDemo/HelloWorld.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/cn/edu360/app/log/mr/AppLogDataClean.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cn/edu360/app/log/mr/AppLogDataClean.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -67,7 +64,7 @@
   <component name="PropertiesComponent">
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="last_opened_file_path" value="D:/" />
-    <property name="project.structure.last.edited" value="Artifacts" />
+    <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.20546737" />
     <property name="settings.editor.selected.configurable" value="MavenSettings" />
@@ -106,7 +103,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.AppLogDataClean">
+  <component name="RunManager" selected="JUnit.HelloWorld.testSearch">
     <configuration name="AppLogDataClean" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="ALTERNATIVE_JRE_PATH" value="1.8" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
@@ -136,31 +133,33 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TimeQueryServer" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="cn.edu360.zk.demo.TimeQueryServer" />
+    <configuration name="HelloWorld.testCreate" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="mapreduce24" />
-      <option name="PROGRAM_PARAMETERS" value="192.168.1.2 4441" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="cn.edu360.zk.demo.*" />
+          <option name="PATTERN" value="cn.edu360.LuceneDemo.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+      <option name="PACKAGE_NAME" value="cn.edu360.LuceneDemo" />
+      <option name="MAIN_CLASS_NAME" value="cn.edu360.LuceneDemo.HelloWorld" />
+      <option name="METHOD_NAME" value="testCreate" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="HbaseClientDemo.testCreateTable" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="HelloWorld.testSearch" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="mapreduce24" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="cn.edu360.hbase.demo.*" />
+          <option name="PATTERN" value="cn.edu360.LuceneDemo.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="cn.edu360.hbase.demo" />
-      <option name="MAIN_CLASS_NAME" value="cn.edu360.hbase.demo.HbaseClientDemo" />
-      <option name="METHOD_NAME" value="testCreateTable" />
+      <option name="PACKAGE_NAME" value="cn.edu360.LuceneDemo" />
+      <option name="MAIN_CLASS_NAME" value="cn.edu360.LuceneDemo.HelloWorld" />
+      <option name="METHOD_NAME" value="testSearch" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -183,19 +182,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.TimeQueryServer" />
       <item itemvalue="Application.AppLogDataClean" />
       <item itemvalue="Application.ReduceJoin$ReduceJoinReducer" />
-      <item itemvalue="JUnit.HbaseClientDemo.testCreateTable" />
       <item itemvalue="JUnit.test.print" />
+      <item itemvalue="JUnit.HelloWorld.testCreate" />
+      <item itemvalue="JUnit.HelloWorld.testSearch" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.HelloWorld.testSearch" />
+        <item itemvalue="JUnit.HelloWorld.testCreate" />
         <item itemvalue="Application.AppLogDataClean" />
         <item itemvalue="Application.ReduceJoin$ReduceJoinReducer" />
         <item itemvalue="JUnit.test.print" />
-        <item itemvalue="JUnit.HbaseClientDemo.testCreateTable" />
-        <item itemvalue="Application.TimeQueryServer" />
       </list>
     </recent_temporary>
   </component>
@@ -301,7 +300,14 @@
       <option name="project" value="LOCAL" />
       <updated>1576896943006</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="Hadoop Day11 - 03.app数据分析--预处理程序的脚本开发和启动测试">
+      <created>1577342922872</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1577342922872</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -329,7 +335,8 @@
     <MESSAGE value="Hadoop Day06 - 16.利用zookeeper开发分布式应用系统案例--客户端实现--运行测试" />
     <MESSAGE value="Hadoop Day09 - 15.hbase的java客户端操作--表定义管理" />
     <MESSAGE value="Hadoop Day11 - 02.app数据分析--预处理程序继续改造" />
-    <option name="LAST_COMMIT_MESSAGE" value="Hadoop Day11 - 02.app数据分析--预处理程序继续改造" />
+    <MESSAGE value="Hadoop Day11 - 03.app数据分析--预处理程序的脚本开发和启动测试" />
+    <option name="LAST_COMMIT_MESSAGE" value="Hadoop Day11 - 03.app数据分析--预处理程序的脚本开发和启动测试" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
