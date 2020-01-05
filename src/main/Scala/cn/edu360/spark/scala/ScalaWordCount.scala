@@ -6,7 +6,7 @@ import org.apache.spark.{SparkConf, SparkContext}
 object ScalaWordCount {
   def main(args: Array[String]): Unit = {
 
-    val conf = new SparkConf()
+    val conf = new SparkConf().setAppName("ScalaWordCount").setMaster("local[4]")
     // 创建Spark执行入口
     val sc = new SparkContext(conf);
     //指定从哪里读取数据读取RDD
