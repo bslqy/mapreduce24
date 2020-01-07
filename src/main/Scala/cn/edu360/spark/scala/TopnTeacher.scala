@@ -8,8 +8,9 @@ object TopnTeacher {
     val conf = new SparkConf().setAppName("TopnTeacher").setMaster("local[4]")
     val sc = new SparkContext(conf)
 
-    val lines:RDD[String] = sc.textFile(args(0))
-   // D:\UoM\mapreduce24\SparkTest\teacher
+    val lines:RDD[String] = sc.textFile("D:\\UoM\\mapreduce24\\SparkTest\\teacher")
+    // http://bigdata.edu360.cn/laozhang
+
 
     val names: RDD[String] = lines.map(_.split("/")(3))
     val subjects: RDD[String] = lines.map(_.split("/")(2).split("[.]")(0))
