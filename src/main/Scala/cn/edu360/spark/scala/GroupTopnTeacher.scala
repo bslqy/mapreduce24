@@ -5,10 +5,10 @@ import org.apache.spark.{SparkConf, SparkContext}
 
 object GroupTopnTeacher {
   def main(args: Array[String]): Unit = {
-    val conf = new SparkConf().setAppName("TopnTeacher").setMaster("local[4]")
+    val conf = new SparkConf().setAppName("GroupTopnTeacher").setMaster("local[4]")
     val sc = new SparkContext(conf)
 
-    val lines:RDD[String] = sc.textFile("D:\\UoM\\mapreduce24\\SparkTest\\teacher")
+    val lines:RDD[String] = sc.textFile("C:\\Users\\LiaoG\\HadoopTest\\Scala")
     // http://bigdata.edu360.cn/laozhang
 
     // ((subject,teacher),1)
@@ -23,6 +23,7 @@ object GroupTopnTeacher {
 
     // 分组排序 (subject,((subject,teacher),n))
     val grouped: RDD[(String, Iterable[((String, String), Int)])] = reduced.groupBy(_._1._1)
+    // val grouped: RDD[(String, Iterable[((String, String), Int)])] = reduced.groupBy(t:((String,String),Int) => t._1._1,4)
 
     // 经过分组后，一个分区内可能有很多学科的数据，一个学科就是一个迭代器
     // grouped.mapValues(_.toList.sortBy(_._2))  -- > List((subject,teacher),n)) 取n作为排序根据
