@@ -50,30 +50,32 @@ object GroupTopnTeacher4 {
   }
 
 
-}
+  class SubjectParitioner(subs:Array[String]) extends Partitioner{
 
-class SubjectParitioner(subs:Array[String]) extends Partitioner{
+    //用于存放规则的一个map。一个学科进去就会有一个编号
+    //相当于主构造器
+    val rules = new mutable.HashMap[String,Int]()
+    var i = 0
+    for (s <- subs){
+      rules.put(s,i)
+      i += 1
 
-  //用于存放规则的一个map。一个学科进去就会有一个编号
-  //相当于主构造器
-  val rules = new mutable.HashMap[String,Int]()
-  var i = 0
-  for (s <- subs){
-    rules.put(s,i)
-    i += 1
+    }
 
+
+    //返回分区的数量 (下一个RDD有多少分区)
+    override def numPartitions: Int = subs.length
+
+    //根据传入的key计算分区标号
+    //key是一个元组 （String，String). 实现分区规则
+    override def getPartition(key: Any): Int = {
+      val subject = key.asInstanceOf[(String,String)]._1
+      // rules.get
+      rules(subject)
+    }
   }
 
 
-  //返回分区的数量 (下一个RDD有多少分区)
-  override def numPartitions: Int = subs.length
-
-  //根据传入的key计算分区标号
-  //key是一个元组 （String，String). 实现分区规则
-  override def getPartition(key: Any): Int = {
-    val subject = key.asInstanceOf[(String,String)]._1
-    // rules.get
-    rules(subject)
-  }
 }
+
 
