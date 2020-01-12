@@ -22,6 +22,8 @@ import java.util.Collections;
 
 public class OrderTopn {
     public static class OrderTopnMapper extends Mapper<LongWritable, Text,Text,OrderBean>{
+
+
         OrderBean orderBean = new OrderBean();
         Text k = new Text();
         @Override
@@ -37,8 +39,11 @@ public class OrderTopn {
     }
 
     public static class OrderTopnReducer extends Reducer<Text,OrderBean,OrderBean, NullWritable>{
+
+
         @Override
         protected void reduce(Text key, Iterable<OrderBean> values, Context context) throws IOException, InterruptedException {
+
             // 获取TopN的参数
             int topN = context.getConfiguration().getInt("order.top.n",3);
             ArrayList<OrderBean> beanList = new ArrayList<>();
@@ -52,6 +57,7 @@ public class OrderTopn {
             // 对beanlist中的orderBean进行排序(按照总金额的大小倒序)
 
             Collections.sort(beanList);
+
             for(int i = 0; i<topN;i++ ){
                 context.write(beanList.get(i),NullWritable.get());
 
