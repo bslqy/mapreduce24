@@ -1,10 +1,9 @@
-package cn.edu360.spark.scala
+package cn.edu360.spark.scala.TopN
 
 import org.apache.spark.rdd.RDD
 import org.apache.spark.{Partitioner, SparkConf, SparkContext}
 
 import scala.collection.mutable
-
 
 /***
  * 自定义分区后一个分区只有一个学科
@@ -77,5 +76,3 @@ object GroupTopnTeacher4 {
 
 
 }
-
-

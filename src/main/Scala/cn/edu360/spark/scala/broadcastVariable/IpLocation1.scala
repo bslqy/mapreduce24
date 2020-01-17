@@ -1,4 +1,4 @@
-package cn.edu360.spark.scala
+package cn.edu360.spark.scala.broadcastVariable
 
 import org.apache.spark.broadcast.Broadcast
 import org.apache.spark.rdd.RDD

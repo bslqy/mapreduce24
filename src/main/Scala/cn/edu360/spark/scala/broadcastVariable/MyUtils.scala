@@ -1,4 +1,4 @@
-package cn.edu360.spark.scala
+package cn.edu360.spark.scala.broadcastVariable
 
 import java.sql.{Connection, DriverManager, PreparedStatement}
 

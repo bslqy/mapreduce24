@@ -6,20 +6,32 @@
     </artifacts-to-build>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d895014e-0bd4-45ed-887b-7cedecce1a97" name="Default Changelist" comment="Spark Top N">
-      <change afterPath="$PROJECT_DIR$/.idea/artifacts/mapreduce24_jar.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/scala_compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/scala_compiler.xml" afterDir="false" />
+    <list default="true" id="d895014e-0bd4-45ed-887b-7cedecce1a97" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/Scala/cn/edu360/spark/scala/CustsomSort/CustomSort1.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/Scala/cn/edu360/spark/scala/CustsomSort/CustomSort2.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/Scala/cn/edu360/spark/scala/CustsomSort/CustomSort3.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/Scala/cn/edu360/spark/scala/CustsomSort/CustomSort4.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/Scala/cn/edu360/spark/scala/CustsomSort/CustomSort5.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/Scala/cn/edu360/spark/scala/CustsomSort/CustomSort6.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/Scala/cn/edu360/spark/scala/CustsomSort/SortRules.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/Scala/cn/edu360/spark/scala/TopN/GroupTopnTeacher.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/Scala/cn/edu360/spark/scala/TopN/GroupTopnTeacher2.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/Scala/cn/edu360/spark/scala/TopN/GroupTopnTeacher4.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/Scala/cn/edu360/spark/scala/TopN/TopnTeacher.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/Scala/cn/edu360/spark/scala/broadcastVariable/IpLocation1.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/Scala/cn/edu360/spark/scala/broadcastVariable/IpLocation2.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/Scala/cn/edu360/spark/scala/broadcastVariable/MyUtils.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/Scala/cn/edu360/spark/scala/broadcastVariable/TestIp.scala" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/Scala/cn/edu360/spark/scala/GroupTopnTeacher.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/Scala/cn/edu360/spark/scala/GroupTopnTeacher.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/Scala/cn/edu360/spark/scala/GroupTopnTeacher.scala" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/Scala/cn/edu360/spark/scala/GroupTopnTeacher2.scala" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/Scala/cn/edu360/spark/scala/GroupTopnTeacher3.scala" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/Scala/cn/edu360/spark/scala/GroupTopnTeacher3.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/Scala/cn/edu360/spark/scala/TopN/GroupTopnTeacher3.scala" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/Scala/cn/edu360/spark/scala/GroupTopnTeacher4.scala" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/Scala/cn/edu360/spark/scala/IpLocation1.scala" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/Scala/cn/edu360/spark/scala/IpLocation2.scala" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/Scala/cn/edu360/spark/scala/MyUtils.scala" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/Scala/cn/edu360/spark/scala/TestIp.scala" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/cn/edu360/mr/order/TopN/OrderTopn.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cn/edu360/mr/order/TopN/OrderTopn.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/Scala/cn/edu360/spark/scala/TopnTeacher.scala" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/log4j.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/log4j.properties" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -39,6 +51,7 @@
       <list>
         <option value="Package Object" />
         <option value="Class" />
+        <option value="Scala Object" />
       </list>
     </option>
   </component>
@@ -75,33 +88,35 @@
   </component>
   <component name="PropertiesComponent">
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
-    <property name="last_opened_file_path" value="D:/" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/Scala/cn/edu360/spark/scala/CustsomSort" />
     <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.20546737" />
     <property name="settings.editor.selected.configurable" value="MavenSettings" />
   </component>
   <component name="RecentsManager">
-    <key name="CreateClassDialog.RecentsKey">
-      <recent name="ScalaLesson" />
-      <recent name="edu360.mr.flow" />
-    </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="D:\UoM\mapreduce24\src\main\resources" />
-      <recent name="D:\UoM\mapreduce24\target" />
-    </key>
-    <key name="CopyClassDialog.RECENTS_KEY">
-      <recent name="cn.edu360.spark.scala" />
-      <recent name="edu360.mr.join" />
-      <recent name="edu360.mr.order.TopnGrouping" />
-      <recent name="edu360.mr.flowProvince" />
-      <recent name="edu360.mr.page.topN" />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="P:\Reporting &amp; Insights\Temp\java\src\main\resources" />
       <recent name="D:\UoM\mapreduce24\src\main\resources" />
       <recent name="D:\UoM\mapreduce24\src\main\java" />
       <recent name="D:\UoM\mapreduce24\target" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\UoM\mapreduce24\src\main\Scala\cn\edu360\spark\scala\CustsomSort" />
+      <recent name="D:\UoM\mapreduce24\src\main\Scala\cn\edu360\spark\scala" />
+      <recent name="D:\UoM\mapreduce24\src\main\resources" />
+      <recent name="D:\UoM\mapreduce24\target" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="cn.edu360.spark.scala.CustsomSort" />
+      <recent name="cn.edu360.spark.scala" />
+      <recent name="edu360.mr.join" />
+      <recent name="edu360.mr.order.TopnGrouping" />
+      <recent name="edu360.mr.flowProvince" />
+    </key>
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="ScalaLesson" />
+      <recent name="edu360.mr.flow" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -116,13 +131,13 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.GroupTopnTeacher">
-    <configuration name="GroupTopnTeacher" type="Application" factoryName="Application" temporary="true">
-      <option name="MAIN_CLASS_NAME" value="cn.edu360.spark.scala.GroupTopnTeacher" />
+  <component name="RunManager" selected="Scala Console.Scala Console">
+    <configuration name="CustomSort3" type="Application" factoryName="Application" temporary="true">
+      <option name="MAIN_CLASS_NAME" value="cn.edu360.spark.scala.CustsomSort.CustomSort3" />
       <module name="mapreduce24" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="cn.edu360.spark.scala.*" />
+          <option name="PATTERN" value="cn.edu360.spark.scala.CustsomSort.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -130,12 +145,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MyList" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ScalaLesson.MyList" />
+    <configuration name="CustomSort4" type="Application" factoryName="Application" temporary="true">
+      <option name="MAIN_CLASS_NAME" value="cn.edu360.spark.scala.CustsomSort.CustomSort4" />
       <module name="mapreduce24" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="ScalaLesson.*" />
+          <option name="PATTERN" value="cn.edu360.spark.scala.CustsomSort.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -143,13 +158,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ScalaWordCount" type="Application" factoryName="Application" temporary="true">
-      <option name="MAIN_CLASS_NAME" value="cn.edu360.spark.scala.ScalaWordCount" />
+    <configuration name="CustomSort5" type="Application" factoryName="Application" temporary="true">
+      <option name="MAIN_CLASS_NAME" value="cn.edu360.spark.scala.CustsomSort.CustomSort5" />
       <module name="mapreduce24" />
-      <option name="PROGRAM_PARAMETERS" value="$PROJECT_DIR$/SparkTest/wc.txt $PROJECT_DIR$/SparkTest/result" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="cn.edu360.spark.scala.*" />
+          <option name="PATTERN" value="cn.edu360.spark.scala.CustsomSort.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -157,12 +171,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TopnTeacher" type="Application" factoryName="Application" temporary="true">
-      <option name="MAIN_CLASS_NAME" value="cn.edu360.spark.scala.TopnTeacher" />
+    <configuration name="CustomSort6" type="Application" factoryName="Application" temporary="true">
+      <option name="MAIN_CLASS_NAME" value="cn.edu360.spark.scala.CustsomSort.CustomSort6" />
       <module name="mapreduce24" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="cn.edu360.spark.scala.*" />
+          <option name="PATTERN" value="cn.edu360.spark.scala.CustsomSort.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -181,19 +195,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.MyList" />
-      <item itemvalue="Application.ScalaWordCount" />
-      <item itemvalue="Application.TopnTeacher" />
-      <item itemvalue="Application.GroupTopnTeacher" />
+      <item itemvalue="Application.CustomSort4" />
+      <item itemvalue="Application.CustomSort3" />
+      <item itemvalue="Application.CustomSort5" />
+      <item itemvalue="Application.CustomSort6" />
       <item itemvalue="Scala Console.Scala Console" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.GroupTopnTeacher" />
-        <item itemvalue="Application.TopnTeacher" />
         <item itemvalue="Scala Console.Scala Console" />
-        <item itemvalue="Application.ScalaWordCount" />
-        <item itemvalue="Application.MyList" />
+        <item itemvalue="Application.CustomSort6" />
+        <item itemvalue="Application.CustomSort5" />
+        <item itemvalue="Application.CustomSort4" />
+        <item itemvalue="Application.CustomSort3" />
       </list>
     </recent_temporary>
   </component>
@@ -327,7 +341,14 @@
       <option name="project" value="LOCAL" />
       <updated>1578225431315</updated>
     </task>
-    <option name="localTasksCounter" value="18" />
+    <task id="LOCAL-00018" summary="Spark Top N">
+      <created>1578799192895</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1578799192895</updated>
+    </task>
+    <option name="localTasksCounter" value="19" />
     <servers />
   </component>
   <component name="Vcs.Log.History.Properties">

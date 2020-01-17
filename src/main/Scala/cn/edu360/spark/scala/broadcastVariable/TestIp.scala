@@ -1,7 +1,12 @@
-package cn.edu360.spark.scala
+package cn.edu360.spark.scala.broadcastVariable
 
 import scala.io.{BufferedSource, Source}
 
+
+/***
+ *
+ * 单机版本
+ */
 object TestIp {
 
   def ip2Long(ip:String) : Long = {

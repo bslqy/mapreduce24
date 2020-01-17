@@ -1,4 +1,4 @@
-package cn.edu360.spark.scala
+package cn.edu360.spark.scala.TopN
 
 import org.apache.spark.rdd.RDD
 import org.apache.spark.{SparkConf, SparkContext}

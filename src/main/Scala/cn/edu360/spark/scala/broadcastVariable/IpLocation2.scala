@@ -1,6 +1,6 @@
-package cn.edu360.spark.scala
+package cn.edu360.spark.scala.broadcastVariable
 
-import java.sql.{Connection, Driver, DriverManager}
+import java.sql.{Connection, DriverManager}
 
 import org.apache.spark.broadcast.Broadcast
 import org.apache.spark.rdd.RDD
