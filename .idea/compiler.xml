@@ -7,8 +7,11 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="java" />
-        <module name="mapreduce24" />
+        <module name="mapreduce-24" />
       </profile>
     </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="mapreduce24" target="1.8" />
+    </bytecodeTargetLevel>
   </component>
 </project>
