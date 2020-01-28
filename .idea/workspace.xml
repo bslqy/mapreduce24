@@ -7,8 +7,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d895014e-0bd4-45ed-887b-7cedecce1a97" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/Scala/cn/edu360/spark/scala/SparkSQL/TopnTeacher.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/Scala/cn/edu360/spark/scala/Streaming/KafkaDirectWordCount.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/Scala/cn/edu360/spark/scala/Streaming/KafkaDirectWordCountV2.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/Scala/cn/edu360/spark/scala/Streaming/KafkaWordCount.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/Scala/cn/edu360/spark/scala/Streaming/StatefulKafkaWordCount.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/Scala/cn/edu360/spark/scala/Streaming/StreamingWordCount.scala" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/log4j.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/log4j.properties" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -41,6 +47,9 @@
     <option name="RESET_MODE" value="SOFT" />
     <option name="UPDATE_TYPE" value="MERGE" />
   </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="dummy://scala-decompiled/KafkaRDD.decompiled.java" root0="SKIP_HIGHLIGHTING" />
+  </component>
   <component name="IgnoredFileRootStore">
     <option name="generatedRoots">
       <set>
@@ -65,15 +74,17 @@
   <component name="PropertiesComponent">
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/Scala/cn/edu360/spark/scala/CustsomSort" />
-    <property name="project.structure.last.edited" value="Project" />
+    <property name="project.structure.last.edited" value="SDKs" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.20546737" />
     <property name="settings.editor.selected.configurable" value="MavenSettings" />
   </component>
   <component name="RecentsManager">
-    <key name="CreateClassDialog.RecentsKey">
-      <recent name="ScalaLesson" />
-      <recent name="edu360.mr.flow" />
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="P:\Reporting &amp; Insights\Temp\java\src\main\resources" />
+      <recent name="D:\UoM\mapreduce24\src\main\resources" />
+      <recent name="D:\UoM\mapreduce24\src\main\java" />
+      <recent name="D:\UoM\mapreduce24\target" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="D:\UoM\mapreduce24\src\main\Scala\cn\edu360\spark\scala\CustsomSort" />
@@ -82,17 +93,15 @@
       <recent name="D:\UoM\mapreduce24\target" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="cn.edu360.spark.scala.Streaming" />
       <recent name="cn.edu360.spark.scala.SparkSQL" />
       <recent name="cn.edu360.spark.scala.CustsomSort" />
       <recent name="cn.edu360.spark.scala" />
       <recent name="edu360.mr.join" />
-      <recent name="edu360.mr.order.TopnGrouping" />
     </key>
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="P:\Reporting &amp; Insights\Temp\java\src\main\resources" />
-      <recent name="D:\UoM\mapreduce24\src\main\resources" />
-      <recent name="D:\UoM\mapreduce24\src\main\java" />
-      <recent name="D:\UoM\mapreduce24\target" />
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="ScalaLesson" />
+      <recent name="edu360.mr.flow" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -107,14 +116,13 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.TopnTeacher">
-    <configuration name="IpLocationSQL" type="Application" factoryName="Application" temporary="true">
-      <option name="MAIN_CLASS_NAME" value="cn.edu360.spark.scala.SparkSQL.IpLocationSQL" />
+  <component name="RunManager" selected="Application.KafkaWordCount">
+    <configuration name="KafkaWordCount" type="Application" factoryName="Application" temporary="true">
+      <option name="MAIN_CLASS_NAME" value="cn.edu360.spark.scala.Streaming.KafkaWordCount" />
       <module name="mapreduce-24" />
-      <option name="PROGRAM_PARAMETERS" value="$PROJECT_DIR$/SparkTest/ip.txt $PROJECT_DIR$/SparkTest/access.log " />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="cn.edu360.spark.scala.SparkSQL.*" />
+          <option name="PATTERN" value="cn.edu360.spark.scala.Streaming.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -122,13 +130,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="IpLocationSQL2" type="Application" factoryName="Application" temporary="true">
-      <option name="MAIN_CLASS_NAME" value="cn.edu360.spark.scala.SparkSQL.IpLocationSQL2" />
+    <configuration name="StreamingWordCount" type="Application" factoryName="Application" temporary="true">
+      <option name="MAIN_CLASS_NAME" value="cn.edu360.spark.scala.Streaming.StreamingWordCount" />
       <module name="mapreduce-24" />
-      <option name="PROGRAM_PARAMETERS" value="$PROJECT_DIR$/SparkTest/ip.txt $PROJECT_DIR$/SparkTest/access.log " />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="cn.edu360.spark.scala.SparkSQL.*" />
+          <option name="PATTERN" value="cn.edu360.spark.scala.Streaming.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -178,19 +185,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.IpLocationSQL" />
-      <item itemvalue="Application.IpLocationSQL2" />
       <item itemvalue="Application.UdafTest" />
       <item itemvalue="Application.UdafDemo" />
       <item itemvalue="Application.TopnTeacher" />
+      <item itemvalue="Application.StreamingWordCount" />
+      <item itemvalue="Application.KafkaWordCount" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.KafkaWordCount" />
+        <item itemvalue="Application.StreamingWordCount" />
         <item itemvalue="Application.TopnTeacher" />
         <item itemvalue="Application.UdafDemo" />
         <item itemvalue="Application.UdafTest" />
-        <item itemvalue="Application.IpLocationSQL2" />
-        <item itemvalue="Application.IpLocationSQL" />
       </list>
     </recent_temporary>
   </component>
@@ -352,7 +359,14 @@
       <option name="project" value="LOCAL" />
       <updated>1579439641315</updated>
     </task>
-    <option name="localTasksCounter" value="22" />
+    <task id="LOCAL-00022" summary="TopNTeacher SQL">
+      <created>1579618341427</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1579618341428</updated>
+    </task>
+    <option name="localTasksCounter" value="23" />
     <servers />
   </component>
   <component name="Vcs.Log.History.Properties">
@@ -396,7 +410,8 @@
     <MESSAGE value="Spark Top N" />
     <MESSAGE value="Spark SQL broadcast join" />
     <MESSAGE value="User define aggregation function" />
-    <option name="LAST_COMMIT_MESSAGE" value="User define aggregation function" />
+    <MESSAGE value="TopNTeacher SQL" />
+    <option name="LAST_COMMIT_MESSAGE" value="TopNTeacher SQL" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
