@@ -2,6 +2,8 @@ package cn.edu360.spark.scala.broadcastVariable
 
 import java.sql.{Connection, DriverManager, PreparedStatement}
 
+import org.apache.spark.streaming.StreamingContext
+
 import scala.io.{BufferedSource, Source}
 
 object MyUtils {

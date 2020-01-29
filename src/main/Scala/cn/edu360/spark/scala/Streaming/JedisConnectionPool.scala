@@ -19,18 +19,18 @@ object JedisConnectionPool {
 
   def main(args: Array[String]): Unit = {
     val conn = JedisConnectionPool.getConnection()
-
-    val r1 = conn.get("hyy")
-
-    println(r1)
-
-    conn.incrBy("hyy",20)
-
-    val r2 = conn.get("hyy")
-
-    println(r2)
-
-    conn.close()
+//
+//    val r1 = conn.get("hyy")
+//
+//    println(r1)
+//
+//    conn.incrBy("hyy",20)
+//
+//    val r2 = conn.get("hyy")
+//
+//    println(r2)
+//
+//    conn.close()
 
     //取出所有的key，循环遍历
     val r = conn.keys("*")
