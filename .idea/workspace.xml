@@ -7,9 +7,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d895014e-0bd4-45ed-887b-7cedecce1a97" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/Scala/ScalaLesson/patternMatching.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/Scala/cn/dmp/bean/Log.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/Scala/cn/dmp/tools/Bzip2Parquet.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/Scala/cn/dmp/tools/Bzip2ParquetV2.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/Scala/cn/dmp/utils/NBF.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/Scala/cn/dmp/utils/SchemaUtils.scala" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/Scala/ScalaLesson/PartialFunction.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/Scala/ScalaLesson/PartialFunction.scala" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -26,9 +29,9 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Package Object" />
         <option value="Class" />
         <option value="Scala Object" />
+        <option value="Package Object" />
       </list>
     </option>
   </component>
@@ -72,11 +75,9 @@
     <property name="settings.editor.selected.configurable" value="MavenSettings" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="P:\Reporting &amp; Insights\Temp\java\src\main\resources" />
-      <recent name="D:\UoM\mapreduce24\src\main\resources" />
-      <recent name="D:\UoM\mapreduce24\src\main\java" />
-      <recent name="D:\UoM\mapreduce24\target" />
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="ScalaLesson" />
+      <recent name="edu360.mr.flow" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="D:\UoM\mapreduce24\src\main\Scala\cn\edu360\spark\scala\CustsomSort" />
@@ -85,15 +86,17 @@
       <recent name="D:\UoM\mapreduce24\target" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="cn.dmp.tools" />
       <recent name="cn.edu360.spark.scala.Streaming" />
       <recent name="cn.edu360.spark.scala.SparkSQL" />
       <recent name="cn.edu360.spark.scala.CustsomSort" />
       <recent name="cn.edu360.spark.scala" />
-      <recent name="edu360.mr.join" />
     </key>
-    <key name="CreateClassDialog.RecentsKey">
-      <recent name="ScalaLesson" />
-      <recent name="edu360.mr.flow" />
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="P:\Reporting &amp; Insights\Temp\java\src\main\resources" />
+      <recent name="D:\UoM\mapreduce24\src\main\resources" />
+      <recent name="D:\UoM\mapreduce24\src\main\java" />
+      <recent name="D:\UoM\mapreduce24\target" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -375,7 +378,14 @@
       <option name="project" value="LOCAL" />
       <updated>1580274724145</updated>
     </task>
-    <option name="localTasksCounter" value="26" />
+    <task id="LOCAL-00026" summary="Scala lessons">
+      <created>1580632573291</created>
+      <option name="number" value="00026" />
+      <option name="presentableId" value="LOCAL-00026" />
+      <option name="project" value="LOCAL" />
+      <updated>1580632573291</updated>
+    </task>
+    <option name="localTasksCounter" value="27" />
     <servers />
   </component>
   <component name="Vcs.Log.History.Properties">
@@ -423,7 +433,8 @@
     <MESSAGE value="Direct connect Kafka" />
     <MESSAGE value="Jedis操作Redis" />
     <MESSAGE value="Redis + Kafka + SparkStreaming" />
-    <option name="LAST_COMMIT_MESSAGE" value="Redis + Kafka + SparkStreaming" />
+    <MESSAGE value="Scala lessons" />
+    <option name="LAST_COMMIT_MESSAGE" value="Scala lessons" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
