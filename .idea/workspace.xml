@@ -7,12 +7,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d895014e-0bd4-45ed-887b-7cedecce1a97" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/Scala/cn/dmp/bean/Log.scala" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/Scala/cn/dmp/tools/Bzip2Parquet.scala" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/Scala/cn/dmp/tools/Bzip2ParquetV2.scala" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/Scala/cn/dmp/utils/NBF.scala" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/Scala/cn/dmp/utils/SchemaUtils.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/Scala/cn/dmp/report/ProCityReport.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/application.conf" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/Scala/cn/edu360/spark/scala/SparkSQL/IpSQL.scala" beforeDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -385,7 +384,14 @@
       <option name="project" value="LOCAL" />
       <updated>1580632573291</updated>
     </task>
-    <option name="localTasksCounter" value="27" />
+    <task id="LOCAL-00027" summary="Day2 日志转换成parquet，自定义类方法以及Structype方法">
+      <created>1580650811240</created>
+      <option name="number" value="00027" />
+      <option name="presentableId" value="LOCAL-00027" />
+      <option name="project" value="LOCAL" />
+      <updated>1580650811240</updated>
+    </task>
+    <option name="localTasksCounter" value="28" />
     <servers />
   </component>
   <component name="Vcs.Log.History.Properties">
@@ -434,7 +440,8 @@
     <MESSAGE value="Jedis操作Redis" />
     <MESSAGE value="Redis + Kafka + SparkStreaming" />
     <MESSAGE value="Scala lessons" />
-    <option name="LAST_COMMIT_MESSAGE" value="Scala lessons" />
+    <MESSAGE value="Day2 日志转换成parquet，自定义类方法以及Structype方法" />
+    <option name="LAST_COMMIT_MESSAGE" value="Day2 日志转换成parquet，自定义类方法以及Structype方法" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
