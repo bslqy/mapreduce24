@@ -7,8 +7,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d895014e-0bd4-45ed-887b-7cedecce1a97" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/Scala/cn/dmp/report/AreaAnalysisSparkSQL.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/Scala/cn/dmp/report/AreaAnalysisSparkCore.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/Scala/cn/dmp/utils/RptUtils.scala" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/Scala/cn/dmp/tools/Bzip2ParquetV2.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/Scala/cn/dmp/tools/Bzip2ParquetV2.scala" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -82,11 +84,11 @@
       <recent name="D:\UoM\mapreduce24\target" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="cn.dmp.report" />
       <recent name="cn.dmp.tools" />
       <recent name="cn.edu360.spark.scala.Streaming" />
       <recent name="cn.edu360.spark.scala.SparkSQL" />
       <recent name="cn.edu360.spark.scala.CustsomSort" />
-      <recent name="cn.edu360.spark.scala" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="P:\Reporting &amp; Insights\Temp\java\src\main\resources" />
@@ -395,7 +397,14 @@
       <option name="project" value="LOCAL" />
       <updated>1580818060928</updated>
     </task>
-    <option name="localTasksCounter" value="29" />
+    <task id="LOCAL-00029" summary="Day3 01.地域报表实现---Spark SQL">
+      <created>1580821873387</created>
+      <option name="number" value="00029" />
+      <option name="presentableId" value="LOCAL-00029" />
+      <option name="project" value="LOCAL" />
+      <updated>1580821873387</updated>
+    </task>
+    <option name="localTasksCounter" value="30" />
     <servers />
   </component>
   <component name="Vcs.Log.History.Properties">
@@ -446,7 +455,8 @@
     <MESSAGE value="Scala lessons" />
     <MESSAGE value="Day2 日志转换成parquet，自定义类方法以及Structype方法" />
     <MESSAGE value="Day2 05.统计各省市的数据量分布情况----结果输出到mysql中" />
-    <option name="LAST_COMMIT_MESSAGE" value="Day2 05.统计各省市的数据量分布情况----结果输出到mysql中" />
+    <MESSAGE value="Day3 01.地域报表实现---Spark SQL" />
+    <option name="LAST_COMMIT_MESSAGE" value="Day3 01.地域报表实现---Spark SQL" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

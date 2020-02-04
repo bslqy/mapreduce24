@@ -35,9 +35,6 @@ object Bzip2ParquetV2 {
     sparkConf.setMaster("local[*]")
     // RDD 序列化到磁盘 worker与worker之间的数据传输
     sparkConf.set("spark.serializer","org.apache.spark.serializer.KyroSerializer")
-    //注册自定义类的序列化方式
-    sparkConf.registerKryoClasses(Array(classOf[Log]))
-
 
     val session: SparkSession = SparkSession.builder().config(sparkConf).getOrCreate()
 
@@ -46,17 +43,18 @@ object Bzip2ParquetV2 {
     val rawdata = session.sparkContext.textFile(logInputPath)
 
     //4 根据业务需求对数据进行处理 ETL (limit表示不管如何切到最后，没有数据也切)
-    val rowData: RDD[Log] = rawdata.map(line => line.split(",", line.length))
+    val rowData: RDD[Row] = rawdata.map(line => line.split(",", line.length))
       .filter(_.length >= 85)
       .map(arr => {
-        //调用Log伴生对象的静态方法
-        Log(arr)
+        Row(Log
+        )
       })
 
 
+
     //5 讲结果存储到本地磁盘
-    val dataFrame = session.createDataFrame(rowData)
-    dataFrame.write.partitionBy("provincename","cityname").parquet(resultOutputPath)
+    val dataFrame = session.createDataFrame(rowData,SchemaUtils.logStructType)
+    dataFrame.write.parquet(resultOutputPath)
     //6 关闭sc
     session.stop()
 
