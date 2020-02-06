@@ -3,8 +3,9 @@ package cn.dmp.report
 import java.util.Properties
 
 import cn.dmp.bean.Log
+import cn.dmp.report.App2DictRDDBoradcast.sparkConf
 import cn.dmp.utils.RptUtils
-import org.apache.spark.SparkConf
+import org.apache.spark.{SparkConf, SparkContext}
 import org.apache.spark.sql.{DataFrame, SparkSession}
 
 object AreaAnalysisSparkCore {
@@ -31,9 +32,9 @@ object AreaAnalysisSparkCore {
     // RDD 序列化到磁盘 worker与worker之间的数据传输
     sparkConf.set("spark.serializer", "org.apache.spark.serializer.KyroSerializer")
 
-    val session: SparkSession = SparkSession.builder().config(sparkConf).getOrCreate()
+    val sc = new SparkContext(sparkConf)
     //读取Parquet文件
-    session.sparkContext.textFile(logInputPath)
+    sc.textFile(logInputPath)
       .map(_.split(",", -1))
       .filter(_.length >= 85)
       .map(arr => {
@@ -43,7 +44,7 @@ object AreaAnalysisSparkCore {
         val showClick = RptUtils.caculateShowClick(log.requestmode, log.iseffective)
 
         ((log.provincename, log.cityname), req ++ rtb ++ showClick)
-        // (省，地市，媒体，渠道，操作系统，网络类型,...，List(9个指标数据))
+        // ((省，地市)，[媒体，渠道，操作系统，网络类型,...，List 9个指标数据])
       }).reduceByKey((list1, list2) => {
       // value进行计算
       // zip ((A1,B1),(A2,B2),..(A9,B9)) => ((A1+B1),...(A9+B9))
@@ -54,6 +55,6 @@ object AreaAnalysisSparkCore {
 
 
 
-    session.close()
+    sc.close()
   }
 }
