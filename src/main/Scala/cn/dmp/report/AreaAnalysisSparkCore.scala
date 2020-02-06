@@ -55,6 +55,6 @@ object AreaAnalysisSparkCore {
 
 
 
-    sc.close()
+    sc.stop()
   }
 }
