@@ -68,7 +68,7 @@ object App2DictRDDBoradcast extends App {
 
 
 
-
+    sc.stop()
 
 
 
