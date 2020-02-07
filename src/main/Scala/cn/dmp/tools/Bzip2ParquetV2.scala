@@ -57,6 +57,6 @@ object Bzip2ParquetV2 {
     //6 关闭sc
     session.stop()
 
-  }
+   }
 
 }

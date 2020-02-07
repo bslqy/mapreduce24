@@ -272,7 +272,7 @@ object Log {
     arr(82),
     arr(83),
     NBF.toInt(arr(84))
-  )
+   )
 
 
 }
