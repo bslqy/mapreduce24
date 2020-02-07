@@ -6,7 +6,12 @@
     </artifacts-to-build>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d895014e-0bd4-45ed-887b-7cedecce1a97" name="Default Changelist" comment="" />
+    <list default="true" id="d895014e-0bd4-45ed-887b-7cedecce1a97" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/Scala/cn/dmp/report/AppAnalysisRedis.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/Scala/cn/dmp/report/App2DictRDDBoradcast.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/Scala/cn/dmp/report/AppAnalysisRddBoradcast.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/Scala/cn/dmp/report/AreaAnalysisSparkCore.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/Scala/cn/dmp/report/AreaAnalysisSparkCore.scala" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -420,7 +425,14 @@
       <option name="project" value="LOCAL" />
       <updated>1581010263192</updated>
     </task>
-    <option name="localTasksCounter" value="33" />
+    <task id="LOCAL-00033" summary="Day3 03.地域报表实现---Spark Core实现02">
+      <created>1581010950156</created>
+      <option name="number" value="00033" />
+      <option name="presentableId" value="LOCAL-00033" />
+      <option name="project" value="LOCAL" />
+      <updated>1581010950156</updated>
+    </task>
+    <option name="localTasksCounter" value="34" />
     <servers />
   </component>
   <component name="Vcs.Log.History.Properties">
@@ -469,10 +481,10 @@
     <MESSAGE value="Day2 日志转换成parquet，自定义类方法以及Structype方法" />
     <MESSAGE value="Day2 05.统计各省市的数据量分布情况----结果输出到mysql中" />
     <MESSAGE value="Day3 01.地域报表实现---Spark SQL" />
-    <MESSAGE value="Day3 03.地域报表实现---Spark Core实现02" />
     <MESSAGE value="Day3 07.媒体报表实现---改造---将redis作为字典库" />
     <MESSAGE value="Day3 05.媒体报表实现---broadcast广播变量实现" />
-    <option name="LAST_COMMIT_MESSAGE" value="Day3 05.媒体报表实现---broadcast广播变量实现" />
+    <MESSAGE value="Day3 03.地域报表实现---Spark Core实现02" />
+    <option name="LAST_COMMIT_MESSAGE" value="Day3 03.地域报表实现---Spark Core实现02" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
