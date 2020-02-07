@@ -34,7 +34,7 @@ object Bzip2Parquet {
     sparkConf.setAppName(s"${this.getClass.getSimpleName}")
     sparkConf.setMaster("local[*]")
     // RDD 序列化到磁盘 worker与worker之间的数据传输
-    sparkConf.set("spark.serializer","org.apache.spark.serializer.KyroSerializer")
+    sparkConf.set("spark.serializer","org.apache.spark.serializer.KryoSerializer")
 
     val session: SparkSession = SparkSession.builder().config(sparkConf).getOrCreate()
 
