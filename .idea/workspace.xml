@@ -8,11 +8,6 @@
   <component name="ChangeListManager">
     <list default="true" id="d895014e-0bd4-45ed-887b-7cedecce1a97" name="Default Changelist" comment="">
       <change afterPath="$PROJECT_DIR$/src/main/Scala/cn/dmp/tags/Tag4Context.scala" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/Scala/cn/dmp/tools/test.scala" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/Scala/cn/dmp/report/App2DictRedis.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/Scala/cn/dmp/report/App2DictRedis.scala" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/Scala/cn/dmp/report/AppAnalysisRddBoradcast.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/Scala/cn/dmp/report/AppAnalysisRddBoradcast.scala" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/Scala/cn/dmp/report/AppAnalysisRedis.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/Scala/cn/dmp/report/AppAnalysisRedis.scala" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/Scala/cn/dmp/report/AreaAnalysisSparkCore.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/Scala/cn/dmp/report/AreaAnalysisSparkCore.scala" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/Scala/cn/dmp/report/AreaAnalysisSparkSQL.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/Scala/cn/dmp/report/AreaAnalysisSparkSQL.scala" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/Scala/cn/dmp/report/ProCityReport.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/Scala/cn/dmp/report/ProCityReport.scala" afterDir="false" />
@@ -460,7 +455,28 @@
       <option name="project" value="LOCAL" />
       <updated>1581049073673</updated>
     </task>
-    <option name="localTasksCounter" value="37" />
+    <task id="LOCAL-00037" summary="Day3 05.媒体报表实现---利用broadcast">
+      <created>1581058847397</created>
+      <option name="number" value="00037" />
+      <option name="presentableId" value="LOCAL-00037" />
+      <option name="project" value="LOCAL" />
+      <updated>1581058847397</updated>
+    </task>
+    <task id="LOCAL-00038" summary="Day3 07.媒体报表实现---改造---将redis作为字典库">
+      <created>1581058966585</created>
+      <option name="number" value="00038" />
+      <option name="presentableId" value="LOCAL-00038" />
+      <option name="project" value="LOCAL" />
+      <updated>1581058966585</updated>
+    </task>
+    <task id="LOCAL-00039" summary="Day3 07.媒体报表实现---改造---将redis作为字典库 （mapPartition + Jedis 需要ListBuffer保存数据">
+      <created>1581059001714</created>
+      <option name="number" value="00039" />
+      <option name="presentableId" value="LOCAL-00039" />
+      <option name="project" value="LOCAL" />
+      <updated>1581059001714</updated>
+    </task>
+    <option name="localTasksCounter" value="40" />
     <servers />
   </component>
   <component name="Vcs.Log.History.Properties">
@@ -487,7 +503,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Hadoop Day06 - 02.mapreduce编程案例--join算法的代码实现(顺序赋值. user1,order11,order12... 只在reducer数量等于用户数量时可用)" />
     <MESSAGE value="Hadoop Day06 - 13.zookeeper的java客户端api的监听功能代码示范" />
     <MESSAGE value="Hadoop Day06 - 16.利用zookeeper开发分布式应用系统案例--客户端实现--运行测试" />
     <MESSAGE value="Hadoop Day09 - 15.hbase的java客户端操作--表定义管理" />
@@ -506,13 +521,14 @@
     <MESSAGE value="Day2 日志转换成parquet，自定义类方法以及Structype方法" />
     <MESSAGE value="Day2 05.统计各省市的数据量分布情况----结果输出到mysql中" />
     <MESSAGE value="Day3 01.地域报表实现---Spark SQL" />
-    <MESSAGE value="Day3 07.媒体报表实现---改造---将redis作为字典库" />
     <MESSAGE value="Day3 05.媒体报表实现---broadcast广播变量实现" />
     <MESSAGE value="Day3 03.地域报表实现---Spark Core实现02" />
     <MESSAGE value="Day3 07.媒体报表实现---改造---将redis作为字典库 （mapPartition + Jedis 需要ListBuffer保存数据)" />
     <MESSAGE value="Day3 02.地域报表实现---Spark Core实现" />
     <MESSAGE value="Day3 05.媒体报表实现---利用broadcast" />
-    <option name="LAST_COMMIT_MESSAGE" value="Day3 05.媒体报表实现---利用broadcast" />
+    <MESSAGE value="Day3 07.媒体报表实现---改造---将redis作为字典库" />
+    <MESSAGE value="Day3 07.媒体报表实现---改造---将redis作为字典库 （mapPartition + Jedis 需要ListBuffer保存数据" />
+    <option name="LAST_COMMIT_MESSAGE" value="Day3 07.媒体报表实现---改造---将redis作为字典库 （mapPartition + Jedis 需要ListBuffer保存数据" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
