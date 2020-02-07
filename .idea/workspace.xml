@@ -9,12 +9,9 @@
     <list default="true" id="d895014e-0bd4-45ed-887b-7cedecce1a97" name="Default Changelist" comment="Day2 日志转换成parquet，自定义类方法">
       <change afterPath="$PROJECT_DIR$/src/main/Scala/cn/dmp/tags/Tag4Context.scala" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/main/Scala/cn/dmp/tags/Tag4Words.scala" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/Scala/cn/dmp/tags/Tags.scala" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/main/Scala/cn/dmp/tags/Tags4Ads.scala" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/main/Scala/cn/dmp/tags/Tags4App.scala" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/main/Scala/cn/dmp/tags/Tags4Device.scala" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/Scala/cn/dmp/utils/TagsUtils.scala" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -534,7 +531,14 @@
       <option name="project" value="LOCAL" />
       <updated>1581059336144</updated>
     </task>
-    <option name="localTasksCounter" value="48" />
+    <task id="LOCAL-00048" summary="Day 05 01.标签实现过程--定义Trait(接口)">
+      <created>1581091607073</created>
+      <option name="number" value="00048" />
+      <option name="presentableId" value="LOCAL-00048" />
+      <option name="project" value="LOCAL" />
+      <updated>1581091607073</updated>
+    </task>
+    <option name="localTasksCounter" value="49" />
     <servers />
   </component>
   <component name="Vcs.Log.History.Properties">
@@ -561,7 +565,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Hadoop Day11 - 02.app数据分析--预处理程序继续改造" />
     <MESSAGE value="Hadoop Day11 - 03.app数据分析--预处理程序的脚本开发和启动测试" />
     <MESSAGE value="05-elasticsearch-1 03 Lucene的API介绍" />
     <MESSAGE value="Scala Day 01 - 02" />
@@ -586,7 +589,8 @@
     <MESSAGE value="Day2 日志转换成parquet，自定义类方法以及Structype方法" />
     <MESSAGE value="Day2 日志转换成parquet，Structype方法" />
     <MESSAGE value="Day2 日志转换成parquet，自定义类方法" />
-    <option name="LAST_COMMIT_MESSAGE" value="Day2 日志转换成parquet，自定义类方法" />
+    <MESSAGE value="Day 05 01.标签实现过程--定义Trait(接口)" />
+    <option name="LAST_COMMIT_MESSAGE" value="Day 05 01.标签实现过程--定义Trait(接口)" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
