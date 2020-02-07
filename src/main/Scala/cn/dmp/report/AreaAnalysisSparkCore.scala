@@ -1,12 +1,9 @@
 package cn.dmp.report
 
-import java.util.Properties
 
 import cn.dmp.bean.Log
-import cn.dmp.report.App2DictRDDBoradcast.sparkConf
 import cn.dmp.utils.RptUtils
 import org.apache.spark.{SparkConf, SparkContext}
-import org.apache.spark.sql.{DataFrame, SparkSession}
 
 object AreaAnalysisSparkCore {
   def main(args: Array[String]): Unit = {
