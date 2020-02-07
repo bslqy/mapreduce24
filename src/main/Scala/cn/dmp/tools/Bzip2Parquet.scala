@@ -6,7 +6,7 @@ import cn.dmp.utils.NBF
 import org.apache.spark.rdd.RDD
 import org.apache.spark.sql.{Row, SQLContext, SparkSession}
 import org.apache.spark.sql.types.{StringType, StructField, StructType}
-import org.apache.spark.{SparkConf, SparkContext}
+import org.apache.spark.{SparkConf, SparkContext }
 
 /***
  * 将原始日式文件转换成parquet文件格式
