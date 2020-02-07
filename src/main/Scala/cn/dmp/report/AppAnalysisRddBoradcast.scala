@@ -4,9 +4,8 @@ import cn.dmp.bean.Log
 import cn.dmp.utils.{JedisPool, RptUtils}
 import org.apache.spark.broadcast.Broadcast
 import org.apache.spark.{SparkConf, SparkContext}
-import redis.clients.jedis.Jedis
 
-object App2DictRDDBoradcast extends App {
+object AppAnalysisRddBoradcast extends App {
 
     // 0 校验参数个数
     if (args.length != 2) {
