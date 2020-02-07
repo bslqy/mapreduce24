@@ -6,9 +6,15 @@
     </artifacts-to-build>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d895014e-0bd4-45ed-887b-7cedecce1a97" name="Default Changelist" comment="Day2 日志转换成parquet，自定义类方法以及Structype方法">
+    <list default="true" id="d895014e-0bd4-45ed-887b-7cedecce1a97" name="Default Changelist" comment="Day2 日志转换成parquet，自定义类方法">
       <change afterPath="$PROJECT_DIR$/src/main/Scala/cn/dmp/tags/Tag4Context.scala" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/Scala/cn/dmp/tools/Bzip2Parquet.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/Scala/cn/dmp/tools/Bzip2Parquet.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/Scala/cn/dmp/tags/Tag4Words.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/Scala/cn/dmp/tags/Tags.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/Scala/cn/dmp/tags/Tags4Ads.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/Scala/cn/dmp/tags/Tags4App.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/Scala/cn/dmp/tags/Tags4Device.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/Scala/cn/dmp/utils/TagsUtils.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -514,7 +520,21 @@
       <option name="project" value="LOCAL" />
       <updated>1581059259206</updated>
     </task>
-    <option name="localTasksCounter" value="46" />
+    <task id="LOCAL-00046" summary="Day2 日志转换成parquet，Structype方法">
+      <created>1581059303025</created>
+      <option name="number" value="00046" />
+      <option name="presentableId" value="LOCAL-00046" />
+      <option name="project" value="LOCAL" />
+      <updated>1581059303025</updated>
+    </task>
+    <task id="LOCAL-00047" summary="Day2 日志转换成parquet，自定义类方法">
+      <created>1581059336144</created>
+      <option name="number" value="00047" />
+      <option name="presentableId" value="LOCAL-00047" />
+      <option name="project" value="LOCAL" />
+      <updated>1581059336144</updated>
+    </task>
+    <option name="localTasksCounter" value="48" />
     <servers />
   </component>
   <component name="Vcs.Log.History.Properties">
@@ -541,8 +561,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Hadoop Day06 - 16.利用zookeeper开发分布式应用系统案例--客户端实现--运行测试" />
-    <MESSAGE value="Hadoop Day09 - 15.hbase的java客户端操作--表定义管理" />
     <MESSAGE value="Hadoop Day11 - 02.app数据分析--预处理程序继续改造" />
     <MESSAGE value="Hadoop Day11 - 03.app数据分析--预处理程序的脚本开发和启动测试" />
     <MESSAGE value="05-elasticsearch-1 03 Lucene的API介绍" />
@@ -566,7 +584,9 @@
     <MESSAGE value="Day2 05.统计各省市的数据量分布情况----结果输出到mysql中" />
     <MESSAGE value="&#9;Day2 日志转换成parquet，自定义类方法以及Structype方法" />
     <MESSAGE value="Day2 日志转换成parquet，自定义类方法以及Structype方法" />
-    <option name="LAST_COMMIT_MESSAGE" value="Day2 日志转换成parquet，自定义类方法以及Structype方法" />
+    <MESSAGE value="Day2 日志转换成parquet，Structype方法" />
+    <MESSAGE value="Day2 日志转换成parquet，自定义类方法" />
+    <option name="LAST_COMMIT_MESSAGE" value="Day2 日志转换成parquet，自定义类方法" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
