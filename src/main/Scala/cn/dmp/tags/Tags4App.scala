@@ -3,7 +3,7 @@ package cn.dmp.tags
 import org.apache.commons.lang.StringUtils
 import org.apache.spark.sql.Row
 
-class Tags4App  extends Tags {
+object Tags4App  extends Tags {
   override def markeTags(args: Any*): Map[String, Int] =
     {
       var map = Map[String,Int]()
