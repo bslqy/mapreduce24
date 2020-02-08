@@ -2,7 +2,7 @@ package cn.dmp.tags
 
 import org.apache.spark.sql.Row
 
-object Tag4Words extends Tags {
+object Tag4KeyWords extends Tags {
 
   override def markeTags(args: Any*): Map[String, Int] = {
     var map = Map[String,Int]()

@@ -6,12 +6,8 @@
     </artifacts-to-build>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d895014e-0bd4-45ed-887b-7cedecce1a97" name="Default Changelist" comment="Day2 日志转换成parquet，自定义类方法">
-      <change afterPath="$PROJECT_DIR$/src/main/Scala/cn/dmp/tags/Tag4Context.scala" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/Scala/cn/dmp/tags/Tag4Words.scala" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/Scala/cn/dmp/tags/Tags4Ads.scala" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/Scala/cn/dmp/tags/Tags4App.scala" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/Scala/cn/dmp/tags/Tags4Device.scala" afterDir="false" />
+    <list default="true" id="d895014e-0bd4-45ed-887b-7cedecce1a97" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/src/main/Scala/cn/dmp/tags/Tags4App.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/Scala/cn/dmp/tags/Tags4App.scala" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -201,13 +197,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1575258351924</updated>
-    </task>
-    <task id="LOCAL-00001" summary="2019/12/02">
-      <created>1575295227420</created>
-      <option name="number" value="00001" />
-      <option name="presentableId" value="LOCAL-00001" />
-      <option name="project" value="LOCAL" />
-      <updated>1575295227421</updated>
     </task>
     <task id="LOCAL-00002" summary="04 - 10. MapReduce TopN">
       <created>1575514938292</created>
@@ -538,7 +527,21 @@
       <option name="project" value="LOCAL" />
       <updated>1581091607073</updated>
     </task>
-    <option name="localTasksCounter" value="49" />
+    <task id="LOCAL-00049" summary="Day5 03.完成App，Ads，Device，Words标签">
+      <created>1581091672979</created>
+      <option name="number" value="00049" />
+      <option name="presentableId" value="LOCAL-00049" />
+      <option name="project" value="LOCAL" />
+      <updated>1581091672979</updated>
+    </task>
+    <task id="LOCAL-00050" summary="Day2 02.标签实现过程 定义main">
+      <created>1581091730752</created>
+      <option name="number" value="00050" />
+      <option name="presentableId" value="LOCAL-00050" />
+      <option name="project" value="LOCAL" />
+      <updated>1581091730753</updated>
+    </task>
+    <option name="localTasksCounter" value="51" />
     <servers />
   </component>
   <component name="Vcs.Log.History.Properties">
@@ -565,8 +568,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Hadoop Day11 - 03.app数据分析--预处理程序的脚本开发和启动测试" />
-    <MESSAGE value="05-elasticsearch-1 03 Lucene的API介绍" />
     <MESSAGE value="Scala Day 01 - 02" />
     <MESSAGE value="Spark Top N" />
     <MESSAGE value="Spark SQL broadcast join" />
@@ -590,7 +591,9 @@
     <MESSAGE value="Day2 日志转换成parquet，Structype方法" />
     <MESSAGE value="Day2 日志转换成parquet，自定义类方法" />
     <MESSAGE value="Day 05 01.标签实现过程--定义Trait(接口)" />
-    <option name="LAST_COMMIT_MESSAGE" value="Day 05 01.标签实现过程--定义Trait(接口)" />
+    <MESSAGE value="Day5 03.完成App，Ads，Device，Words标签" />
+    <MESSAGE value="Day2 02.标签实现过程 定义main" />
+    <option name="LAST_COMMIT_MESSAGE" value="Day2 02.标签实现过程 定义main" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
