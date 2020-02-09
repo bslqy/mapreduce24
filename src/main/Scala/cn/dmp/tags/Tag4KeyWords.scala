@@ -13,8 +13,8 @@ object Tag4KeyWords extends Tags {
 
 
     kws.split("\\|")
-      .filter(kw => kw.length >= 3 && kw.length <= 8 && !stopWords.contains(kw))
-        .foreach(kw => map += "K"+kw -> 1 )
+      .filter(kw => kw.trim.length >= 3 && kw.trim.length <= 8 && !stopWords.contains(kw.trim))
+        .foreach(kw => map += "K"+kw.trim -> 1 )
 
     map
 

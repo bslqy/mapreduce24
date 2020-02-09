@@ -2,7 +2,6 @@ package cn.dmp.tags
 
 import org.apache.spark.sql.Row
 import org.apache.commons.lang.StringUtils
-import org.apache.spark.sql.catalyst.util.StringUtils
 
 object Tags4Ads  extends Tags {
   override def markeTags(args: Any*): Map[String, Int] = {
