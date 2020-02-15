@@ -4,7 +4,7 @@ object RptUtils {
   /**
    * List(原始请求，有效请求，广告请求)
    */
-  def caculateReq(reqMode: Int, prcNode: Int): List[Double] = {
+  def calculateReq(reqMode: Int, prcNode: Int): List[Double] = {
     if (reqMode == 1 && prcNode == 1) {
       List[Double](1, 0, 0)
     } else if (reqMode == 1 && prcNode == 2) {
@@ -17,7 +17,7 @@ object RptUtils {
   /**
    * List(参与竞价，竞价成功，消费，成本)
    */
-  def caculateRtb(effTive: Int, bill: Int, bid: Int, orderId: Int, win: Int, winPrice: Double, adPayMent: Double): List[Double] = {
+  def calculateRtb(effTive: Int, bill: Int, bid: Int, orderId: Int, win: Int, winPrice: Double, adPayMent: Double): List[Double] = {
 
     if (effTive == 1 && bill == 1 && bid == 1 && orderId != 0) {
       List[Double](1, 0, 0, 0)
@@ -29,7 +29,7 @@ object RptUtils {
   /**
    * List(广告展示，点击)
    */
-  def caculateShowClick(reqMode: Int, effTive: Int): List[Double] = {
+  def calculateShowClick(reqMode: Int, effTive: Int): List[Double] = {
     if (reqMode == 2 && effTive == 1) {
       List[Double](1, 0)
     } else if (reqMode == 3 && effTive == 1) {
