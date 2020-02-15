@@ -36,9 +36,9 @@ object AreaAnalysisSparkCore {
       .filter(_.length >= 85)
       .map(arr => {
         val log = Log(arr)
-        val req = RptUtils.caculateReq(log.requestmode, log.processnode)
-        val rtb = RptUtils.caculateRtb(log.iseffective, log.isbilling,log.isbid, log.adorderid, log.iswin, log.winprice, log.adpayment)
-        val showClick = RptUtils.caculateShowClick(log.requestmode, log.iseffective)
+        val req = RptUtils.calculateReq(log.requestmode, log.processnode)
+        val rtb = RptUtils.calculateRtb(log.iseffective, log.isbilling,log.isbid, log.adorderid, log.iswin, log.winprice, log.adpayment)
+        val showClick = RptUtils.calculateShowClick(log.requestmode, log.iseffective)
 
         ((log.provincename, log.cityname), req ++ rtb ++ showClick)
         // ((省，地市)，[媒体，渠道，操作系统，网络类型,...，List 9个指标数据])

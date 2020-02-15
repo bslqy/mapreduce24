@@ -52,9 +52,9 @@ object AppAnalysisRddBoradcast extends App {
         newAppname = broadcastRef.value.getOrElse(log.appid,"未知")
       }
 
-      val req = RptUtils.caculateReq(log.requestmode, log.processnode)
-      val rtb = RptUtils.caculateRtb(log.iseffective, log.isbilling,log.isbid, log.adorderid, log.iswin, log.winprice, log.adpayment)
-      val showClick = RptUtils.caculateShowClick(log.requestmode, log.iseffective)
+      val req = RptUtils.calculateReq(log.requestmode, log.processnode)
+      val rtb = RptUtils.calculateRtb(log.iseffective, log.isbilling,log.isbid, log.adorderid, log.iswin, log.winprice, log.adpayment)
+      val showClick = RptUtils.calculateShowClick(log.requestmode, log.iseffective)
 
       (newAppname,req++rtb++showClick)
     }).reduceByKey((list1, list2) => {
