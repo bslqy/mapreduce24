@@ -105,7 +105,6 @@ object Tag4Context {
 
         listBuffer.append((allUserId(0), (ads ++ apps ++ devices ++ keywords ++ business).toList))
         listBuffer
-
       })
       jedis.close()
 
