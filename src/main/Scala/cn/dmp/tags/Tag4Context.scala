@@ -1,7 +1,7 @@
 package cn.dmp.tags
 
 
-import cn.dmp.utils.TagsUtils
+import cn.dmp.utils.{JedisPool, TagsUtils}
 import com.typesafe.config.ConfigFactory
 import org.apache.hadoop.hbase.{HColumnDescriptor, HTableDescriptor, TableName}
 import org.apache.hadoop.hbase.client.{Connection, ConnectionFactory, Put}
@@ -12,6 +12,8 @@ import org.apache.hadoop.mapred.JobConf
 import org.apache.spark.{SparkConf, SparkContext}
 import org.apache.spark.broadcast.Broadcast
 import org.apache.spark.sql.{SQLContext, SparkSession}
+
+import scala.collection.mutable.ListBuffer
 
 object Tag4Context {
   def main(args: Array[String]): Unit = {
@@ -68,7 +70,7 @@ object Tag4Context {
     if (!hbAdmin.tableExists(TableName.valueOf(hbTableName))){
       println(s"$hbTableName 不存在...")
       println(s"正在创建  $hbTableName ...")
-      
+
       val tableDescriptor = new HTableDescriptor(TableName.valueOf(hbTableName))
       val columnDescriptor = new HColumnDescriptor(s"day$day")
       tableDescriptor.addFamily(columnDescriptor)
@@ -84,28 +86,43 @@ object Tag4Context {
     jobConf.set(TableOutputFormat.OUTPUT_TABLE,hbTableName)
 
     // 读取日誌的parquet文件
-    session.read.parquet(inputPath).where(TagsUtils.hasSomeUserIdCondition).rdd.map(row => {
+    session.read.parquet(inputPath).where(TagsUtils.hasSomeUserIdCondition).rdd.mapPartitions(par => {
       // 把数据传入打标签的类，Tags4Ads 类里面实现打标签接口方法
-      val ads = Tags4Ads.markeTags(row)
-      val apps = Tags4App.markeTags(row, broadcastAppDict.value)
-      val devices = Tags4Device.markeTags(row)
-      val keywords = Tag4KeyWords.markeTags(row, broadcastAppDict.value, broadcastStopWordsDict.value)
-      val allUserId = TagsUtils.getAllUserId(row)
 
-       (allUserId(0), (ads ++ apps ++ devices ++ keywords).toList)
+      // 每个分区开启一个Jedis客户端
+      val jedis = JedisPool.getJedis()
+      val listBuffer = new ListBuffer[(String,List[(String,Int)])]()
+
+      par.foreach(row => {
+        val ads = Tags4Ads.markeTags(row)
+        val apps = Tags4App.markeTags(row, broadcastAppDict.value)
+        val devices = Tags4Device.markeTags(row)
+        val keywords = Tag4KeyWords.markeTags(row, broadcastAppDict.value, broadcastStopWordsDict.value)
+        val allUserId = TagsUtils.getAllUserId(row)
+
+        //商圈的标签
+        val business = Tags4Business.markeTags(row, jedis)
+
+        listBuffer.append((allUserId(0), (ads ++ apps ++ devices ++ keywords ++ business).toList))
+        listBuffer
+
+      })
+      jedis.close()
+
+      listBuffer.iterator
     }).reduceByKey((a,b) => {
       // val a = ("ID1",List(("电视剧" -> 2))) val b = ("ID1",List(("体育" -> 1),("电视剧" -> 1)))
       //  => (a ++ b)
 
-       //( "ID1",List(("电视剧" -> 2),("体育" -> 1),("电视剧" -> 1)) )
+      //( "ID1",List(("电视剧" -> 2),("体育" -> 1),("电视剧" -> 1)) )
       // => groupBy(_._1)
-      //  Map( "电视剧"-> List(("电视剧"-> 2),("电视剧"-> 2)) , "体育" -> List(("体育" -> 1)) )
+      //  Map( "电视剧"-> List(("电视剧"-> 2),("电视剧"-> 1)) , "体育" -> List(("体育" -> 1)) )
 
-       // => mapValues(_.foldLeft(0)(_+ _._2)).toList
+      // => mapValues(_.foldLeft(0)(_+ _._2)).toList
       // RDD[ "ID1",List[("电视剧",3),("体育",1)] ]
       (a ++ b).groupBy(_._1).mapValues(_.foldLeft(0)(_+ _._2)).toList
 
-     }).map{
+    }).map{
       // 放进Hbase中
       case (userId,userTags) => {
         val put: Put = new Put((Bytes.toBytes(userId)))
