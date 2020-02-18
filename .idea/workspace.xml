@@ -7,8 +7,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d895014e-0bd4-45ed-887b-7cedecce1a97" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/Scala/cn/dmp/tags/testaaa.scala" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/Scala/cn/dmp/tags/Tag4Context.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/Scala/cn/dmp/tags/Tag4Context.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/Scala/cn/dmp/graphx/commonFriend.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -28,6 +29,7 @@
         <option value="Package Object" />
         <option value="Class" />
         <option value="Scala Object" />
+        <option value="Scala Class" />
       </list>
     </option>
   </component>
@@ -107,14 +109,13 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.BaiduGeoAPI.getBUsiness">
-    <configuration name="Bzip2Parquet" type="Application" factoryName="Application" temporary="true">
-      <option name="MAIN_CLASS_NAME" value="cn.dmp.tools.Bzip2Parquet" />
+  <component name="RunManager" selected="Application.commonFriend">
+    <configuration name="commonFriend" type="Application" factoryName="Application" temporary="true">
+      <option name="MAIN_CLASS_NAME" value="cn.dmp.graphx.commonFriend" />
       <module name="mapreduce-24" />
-      <option name="PROGRAM_PARAMETERS" value="D:/testlog/App.txt D:/testlog/1" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="cn.dmp.utils.*" />
+          <option name="PATTERN" value="cn.dmp.graphx.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -175,19 +176,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.Bzip2Parquet" />
       <item itemvalue="Application.test (2)" />
       <item itemvalue="Application.testaaa" />
       <item itemvalue="Scala Console.Scala Console" />
       <item itemvalue="JUnit.BaiduGeoAPI.getBUsiness" />
+      <item itemvalue="Application.commonFriend" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.commonFriend" />
         <item itemvalue="JUnit.BaiduGeoAPI.getBUsiness" />
         <item itemvalue="Application.testaaa" />
         <item itemvalue="Application.test (2)" />
         <item itemvalue="Scala Console.Scala Console" />
-        <item itemvalue="Application.Bzip2Parquet" />
       </list>
     </recent_temporary>
   </component>
@@ -201,20 +202,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1575258351924</updated>
-    </task>
-    <task id="LOCAL-00008" summary="Hadoop Day06 - 02.mapreduce编程案例--join算法的代码实现">
-      <created>1575803004710</created>
-      <option name="number" value="00008" />
-      <option name="presentableId" value="LOCAL-00008" />
-      <option name="project" value="LOCAL" />
-      <updated>1575803004710</updated>
-    </task>
-    <task id="LOCAL-00009" summary="Hadoop Day06 - 02.mapreduce编程案例--join算法的代码实现(顺序赋值. user1,order11,order12... 只在reducer数量等于用户数量时可用)">
-      <created>1575861590339</created>
-      <option name="number" value="00009" />
-      <option name="presentableId" value="LOCAL-00009" />
-      <option name="project" value="LOCAL" />
-      <updated>1575861590339</updated>
     </task>
     <task id="LOCAL-00010" summary="Hadoop Day06 - 13.zookeeper的java客户端api的监听功能代码示范">
       <created>1576209107900</created>
@@ -545,7 +532,21 @@
       <option name="project" value="LOCAL" />
       <updated>1581751811868</updated>
     </task>
-    <option name="localTasksCounter" value="57" />
+    <task id="LOCAL-00057" summary="Day6 - 04.商圈标签bug解决: Map 改写成 MapPartition + foreach (为了每台机器开启Jedis客户端）">
+      <created>1581751930562</created>
+      <option name="number" value="00057" />
+      <option name="presentableId" value="LOCAL-00057" />
+      <option name="project" value="LOCAL" />
+      <updated>1581751930562</updated>
+    </task>
+    <task id="LOCAL-00058" summary="Day6 - 04.商圈标签bug解决: Map 改写成 MapPartition + foreach (为了每台机器开启Jedis客户端）">
+      <created>1581751949575</created>
+      <option name="number" value="00058" />
+      <option name="presentableId" value="LOCAL-00058" />
+      <option name="project" value="LOCAL" />
+      <updated>1581751949575</updated>
+    </task>
+    <option name="localTasksCounter" value="59" />
     <servers />
   </component>
   <component name="Vcs.Log.History.Properties">
@@ -572,7 +573,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Jedis操作Redis" />
     <MESSAGE value="Redis + Kafka + SparkStreaming" />
     <MESSAGE value="Scala lessons" />
     <MESSAGE value="Day3 05.媒体报表实现---broadcast广播变量实现" />
@@ -597,7 +597,8 @@
     <MESSAGE value="Day6 03.添加商圈标签 - 创建 utils 和 tools 和 tags" />
     <MESSAGE value="caculateReq 类修改 成 calculateReq" />
     <MESSAGE value="Day6 - 04.商圈标签bug解决: MapPartition改写成 foreachPartition + foreach" />
-    <option name="LAST_COMMIT_MESSAGE" value="Day6 - 04.商圈标签bug解决: MapPartition改写成 foreachPartition + foreach" />
+    <MESSAGE value="Day6 - 04.商圈标签bug解决: Map 改写成 MapPartition + foreach (为了每台机器开启Jedis客户端）" />
+    <option name="LAST_COMMIT_MESSAGE" value="Day6 - 04.商圈标签bug解决: Map 改写成 MapPartition + foreach (为了每台机器开启Jedis客户端）" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
